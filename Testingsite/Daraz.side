@@ -1,0 +1,3572 @@
+{
+  "id": "5f7174f2-e64b-47ec-ad1f-38871135f79a",
+  "version": "2.0",
+  "name": "Daraz",
+  "url": "https://www.daraz.com.bd/#",
+  "tests": [{
+    "id": "d027bc68-b914-4202-a17f-5b6ce8c14d0e",
+    "name": "Account  invalid verification",
+    "commands": [{
+      "id": "9e399e98-de7c-4f22-91c6-51edbaf52e10",
+      "comment": "",
+      "command": "open",
+      "target": "https://member.daraz.com.bd/user/register?spm=a2a0e.login_signup.0.0.23932829ikLDRd&redirect=https%3A%2F%2Fwww.daraz.com.bd%2F",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6c6d145-1b62-40f6-948d-cf0f2ec1a4c8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d982b882-546c-4114-9815-241f016e9a3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d670f3b-f69d-41ae-b828-3c5ad2324e31",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "01581457479"
+    }, {
+      "id": "c783edb1-7448-4f40-ad98-d87e400ba329",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mod-login-input-name",
+      "targets": [
+        ["css=.mod-login-input-name", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48d3e82c-8c9c-44bd-a497-10516a525d47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f99659e-c718-4c8f-970e-f1c2eb95e2d8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='ABRAR HAMIM']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "ABRAR HAMIM"
+    }, {
+      "id": "78d46bd1-35f4-4a56-9d87-f784caa7d980",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57a2ca01-4af0-4193-86c3-7d7367930984",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='123456A']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456A"
+    }, {
+      "id": "742cacac-f631-4ef9-a185-8a6b3f209769",
+      "comment": "",
+      "command": "click",
+      "target": "css=#month > .next-select-inner",
+      "targets": [
+        ["css=#month > .next-select-inner", "css:finder"],
+        ["xpath=//span[@id='month']/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a8aad26-7356-4dc9-9630-56c8c9b8d776",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//li[@value='5']", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "647d4145-095d-4f02-8ff3-080c6c9173db",
+      "comment": "",
+      "command": "click",
+      "target": "css=#day .next-select-placeholder",
+      "targets": [
+        ["css=#day .next-select-placeholder", "css:finder"],
+        ["xpath=//span[@id='day']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09f17d5c-3982-496a-9310-dba30039e0ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//li[@value='5']", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/ul/li[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8d8c7f2-ece8-41e8-ba42-f63325cdd96b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#year .next-select-placeholder",
+      "targets": [
+        ["css=#year .next-select-placeholder", "css:finder"],
+        ["xpath=//span[@id='year']/span/span", "xpath:idRelative"],
+        ["xpath=//span[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e02e2522-7d53-4f65-82f5-539a72f3eea4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//li[@value='2017']", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/ul/li[7]", "xpath:position"],
+        ["xpath=//li[contains(.,'2017')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2411b6f1-ec3e-49f0-a2ba-2b27a4ad3b27",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bec51b5b-16dd-4591-8db4-0ab2ed88968b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.venture-BD",
+      "targets": [
+        ["css=.venture-BD", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39888804-c6bf-4469-af81-7161fa840b5d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.venture-BD",
+      "targets": [
+        ["css=.venture-BD", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "098e4cf4-244b-4eed-a603-3c41c47770e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#year > .next-select-inner",
+      "targets": [
+        ["css=#year > .next-select-inner", "css:finder"],
+        ["xpath=//span[@id='year']/span", "xpath:idRelative"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29db5ca0-8511-406c-b2f5-80057ad25fcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//li[@value='1957']", "xpath:attributes"],
+        ["xpath=//li[67]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c5c51d4-42ae-43e2-bc74-ebaf7a71c292",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8638dee-c6ef-47ff-bbe9-3d233f27456d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-select-placeholder",
+      "targets": [
+        ["css=.next-select-placeholder", "css:finder"],
+        ["xpath=//span[@id='gender']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "080971ca-2e84-4c77-906c-ecc13503b43c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//li[@value='male']", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'male')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69f04966-d637-4775-8006-4c5abaad10e3",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": "31,10"
+    }, {
+      "id": "8d0b7559-017e-419d-a328-8e7b033ac97d",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": "31,10"
+    }, {
+      "id": "3710d12f-b45e-441a-9ff0-100a3d36cc87",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=p:nth-child(2)",
+      "targets": [
+        ["css=p:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": "31,10"
+    }, {
+      "id": "8d40079e-a529-47c4-a7ab-acdc72e7f3d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mod-login",
+      "targets": [
+        ["css=.mod-login", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/form/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e2b4a08-0102-4e67-ab1e-f9f5cb469708",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "272457"
+    }, {
+      "id": "d1750ebc-2372-415c-8add-c1fbac885551",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SIGN UP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66f69aea-f15e-4678-800e-13192c4f9ace",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SIGN UP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13217f8d-63ef-414d-b306-f18cbe214753",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SIGN UP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2659f7e9-345e-45c1-8699-994a4b2147ef",
+    "name": "Daraz Link test",
+    "commands": [{
+      "id": "312ea74d-7bf7-4072-9f20-72628bf53fde",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "400d195d-ec58-4d50-abff-2649442f2358",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60ffd781-43bf-4e90-9ffd-b9b2d32be90e",
+      "comment": "",
+      "command": "click",
+      "target": "id=topActionDownload",
+      "targets": [
+        ["id=topActionDownload", "id"],
+        ["linkText=SAVE MORE ON APP", "linkText"],
+        ["css=#topActionDownload", "css:finder"],
+        ["xpath=//a[contains(text(),'SAVE MORE ON APP')]", "xpath:link"],
+        ["xpath=//a[@id='topActionDownload']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionLinks']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.bd/mobile-apps/?spm=a2a0e.home.header.d1.735212f7t9HsXL')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'SAVE MORE ON APP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0b9ed6a-e4ec-4e50-8e2e-8e4722015158",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=topActionDownload",
+      "targets": [
+        ["id=topActionDownload", "id"],
+        ["linkText=SAVE MORE ON APP", "linkText"],
+        ["css=#topActionDownload", "css:finder"],
+        ["xpath=//a[contains(text(),'SAVE MORE ON APP')]", "xpath:link"],
+        ["xpath=//a[@id='topActionDownload']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionLinks']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.bd/mobile-apps/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'SAVE MORE ON APP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f16bd8f7-c985-4b84-95b5-875e66333119",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=topActionDownload",
+      "targets": [
+        ["id=topActionDownload", "id"],
+        ["linkText=SAVE MORE ON APP", "linkText"],
+        ["css=#topActionDownload", "css:finder"],
+        ["xpath=//a[contains(text(),'SAVE MORE ON APP')]", "xpath:link"],
+        ["xpath=//a[@id='topActionDownload']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionLinks']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.bd/mobile-apps/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'SAVE MORE ON APP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8153b77b-9694-40a6-beb4-e86ccf2e9c06",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,317)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2ed5541-e09a-4e1a-ad7c-f08852ccb0c8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,611)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81188e35-a194-4589-bc95-0684807eb0d1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3667)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a22646a9-cebd-4796-b11d-090be454914b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-list:nth-child(2) > .footer-li:nth-child(1)",
+      "targets": [
+        ["css=.footer-list:nth-child(2) > .footer-li:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0713ad87-94a6-45fb-b257-8e4aeebcd71e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Help Center",
+      "targets": [
+        ["linkText=Help Center", "linkText"],
+        ["css=.footer-list:nth-child(2) > .footer-li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Help Center')]", "xpath:link"],
+        ["xpath=//div[@id='J_1362278930']/section/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//helpcenter.daraz.com.bd/page/home?spm=a2a0e.27096439.footer_top.1.737f7d1dSB9qMb&language=en&pageId=1&scm=1003.4.icms-zebra-100022982-6850452.OTHER_6502233774_7696023')]", "xpath:href"],
+        ["xpath=//section/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a97a6cc1-6771-4a2e-8e42-a10ed4411081",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,333)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46f9baba-2418-49bb-af33-86064d8f2a72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-logo-content img",
+      "targets": [
+        ["css=.lzd-logo-content img", "css:finder"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "919094eb-b562-4685-a327-8b66075cb344",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-channels-item:nth-child(2) .text-wrap:nth-child(1)",
+      "targets": [
+        ["css=.card-channels-item:nth-child(2) .text-wrap:nth-child(1)", "css:finder"],
+        ["xpath=//div[2]/a/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3df55b45-5ff0-474d-8506-b21f9086a52b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,333)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7875ef93-cacc-40b2-8d1a-5758ffcf4545",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rax-view:nth-child(1) > a .lzd-item-hover-mask:nth-child(3)",
+      "targets": [
+        ["css=.rax-view:nth-child(1) > a .lzd-item-hover-mask:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='7055683540']/div/div/div/div/a/a/div/a", "xpath:idRelative"],
+        ["xpath=//a/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "301afaa4-c5eb-424a-a24c-96d0096a8dea",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,554)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc0eea00-38bc-4ad5-8c10-91a07d51452b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b024acb5-d633-474b-ba1c-d6d8498d8e63",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Join the Daraz Affiliate Program",
+      "targets": [
+        ["linkText=Join the Daraz Affiliate Program", "linkText"],
+        ["css=.footer-list:nth-child(4) > .footer-li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Join the Daraz Affiliate Program')]", "xpath:link"],
+        ["xpath=//div[@id='J_1362278930']/section/div/div/div/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.bd/daraz-affiliate-program/?spm=a2a0e.pdp.footer_top.10.6cc0zR13zR13UT&scm=1003.4.icms-zebra-100022982-2888459.OTHER_6035955355_2538025')]", "xpath:href"],
+        ["xpath=//div/ul[2]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join the Daraz Affiliate Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e564a9da-5d0b-4429-83cb-8e094129fa16",
+    "name": "Account  valid verification",
+    "commands": [{
+      "id": "18677abe-0230-4890-8b27-731091fd588c",
+      "comment": "",
+      "command": "open",
+      "target": "https://member.daraz.com.bd/user/register?spm=a2a0e.login_signup.0.0.6ac82829iTRbhU",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26d2e29d-d972-4795-a0a5-a7b90a7266db",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6fb1c9a-728d-4918-bed5-015a3bec97a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbc94a03-a8c6-42c1-9fc0-bdf63693430e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "01581457479"
+    }, {
+      "id": "96f51c23-7d9c-469f-8eef-13d79557c4a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[9]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3b8cc9a-ee4c-4bbf-b3e5-3b39b31cc2ef",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='ABRAR HAMIM']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "ABRAR HAMIM"
+    }, {
+      "id": "44581090-cc13-4769-b8e7-86abdb1db43a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "62,22"
+    }, {
+      "id": "2bd34ca9-8e5c-4573-96a7-498864ec4cec",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "62,22"
+    }, {
+      "id": "41d9bc56-0aab-44e7-afee-7d4f6343ae3c",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "62,22"
+    }, {
+      "id": "29501e4e-ed2a-4c8e-805e-32bbdcad402f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ade45f8-76ec-413f-8bd8-6e4dc2f17788",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='12345a']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "12345a"
+    }, {
+      "id": "cfe8cd5e-836c-4ae3-b485-5bb5895984d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#month > .next-select-inner",
+      "targets": [
+        ["css=#month > .next-select-inner", "css:finder"],
+        ["xpath=//span[@id='month']/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d353fe5-29f2-4f80-9dc6-4a11465f53c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//li[@value='12']", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/ul/li[12]", "xpath:position"],
+        ["xpath=//li[contains(.,'December')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fda8883-b9e1-44bf-8603-8a971da79d43",
+      "comment": "",
+      "command": "click",
+      "target": "css=#day .next-select-placeholder",
+      "targets": [
+        ["css=#day .next-select-placeholder", "css:finder"],
+        ["xpath=//span[@id='day']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "773f36dd-a217-407a-96fe-cd6ef8e43860",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//li[@value='8']", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/ul/li[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d45c9947-3d4b-4c69-b54f-55b6a7148add",
+      "comment": "",
+      "command": "click",
+      "target": "css=#year .next-select-placeholder",
+      "targets": [
+        ["css=#year .next-select-placeholder", "css:finder"],
+        ["xpath=//span[@id='year']/span/span", "xpath:idRelative"],
+        ["xpath=//span[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86b49e23-eb4c-4204-9fef-69bed5afd34f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//li[@value='1982']", "xpath:attributes"],
+        ["xpath=//li[42]", "xpath:position"],
+        ["xpath=//li[contains(.,'1982')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5e0077b-d6a6-4d19-8d8c-3bc2038ef1e5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a011483-cbd3-4a42-b973-56168cae29b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-select-placeholder",
+      "targets": [
+        ["css=.next-select-placeholder", "css:finder"],
+        ["xpath=//span[@id='gender']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cad437ce-0579-4e61-88eb-6e0111aebd48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//li[@value='male']", "xpath:attributes"],
+        ["xpath=//div[5]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'male')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24c72233-c66d-4ca3-b038-a476ebe9652d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mod-login-col1",
+      "targets": [
+        ["css=.mod-login-col1", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/form/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "275c5982-d289-4fff-a892-ae093603167f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75a9009e-9526-4850-904b-3f4472b3182a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "182304"
+    }, {
+      "id": "5f3d13a4-1c06-4533-9b6c-a88e2054b0d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SIGN UP')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08677e00-9ba3-4c9b-b079-65d64a44c125",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-feedback-content",
+      "targets": [
+        ["css=.next-feedback-content", "css:finder"],
+        ["xpath=//div[6]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1498cfe6-5fb6-41d8-be67-00dfc81d2da3",
+    "name": "LOG IN",
+    "commands": [{
+      "id": "64733bba-eef3-4810-96c2-6b91d0fdc772",
+      "comment": "",
+      "command": "open",
+      "target": "https://member.daraz.com.bd/user/login?redirect=https%3A%2F%2Fmember.daraz.com.bd%2Fuser%2Fprofile%3Fredirect%3Dhttps%3A%2F%2Fwww.daraz.com.bd?redirect=https%3A%2F%2Fwww.daraz.com.bd",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae8fb389-7820-448c-96d5-91af6816b7d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e52f2055-9c75-4b2d-97c9-ae1a04c9407f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "01581457479"
+    }, {
+      "id": "522febdb-ea1c-4805-8139-081296f1ed3c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='123456a']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "123456a"
+    }, {
+      "id": "dce84206-9288-40fc-9165-c7dda86534cd",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "166,21"
+    }, {
+      "id": "2f913aaa-1a75-40e9-ad9c-71b931da8197",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "166,21"
+    }, {
+      "id": "5ca8ff8f-6fd4-4e35-9bf4-58eb4f42457b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "166,21"
+    }, {
+      "id": "c9c7b242-7f53-46f2-968c-f39fa0c263c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94131148-f4da-4a77-963f-d34c05bf1d0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='123456a']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16056d8d-e006-408f-82b7-7a19acfff3c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "be524200-5bdc-4478-8fee-edacefbce845",
+    "name": "LOG IN FAILD",
+    "commands": [{
+      "id": "cafc6caa-5f82-4e70-bd96-16bf773f2843",
+      "comment": "",
+      "command": "open",
+      "target": "https://member.daraz.com.bd/user/login?redirect=https%3A%2F%2Fmember.daraz.com.bd%2Fuser%2Fprofile%3Fredirect%3Dhttps%3A%2F%2Fwww.daraz.com.bd?redirect=https%3A%2F%2Fwww.daraz.com.bd",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9207167-671d-4847-9b24-f12c36704036",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "784x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c7f3f4b-73e1-4fa4-9721-d4ce1686769f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "01581457479"
+    }, {
+      "id": "43993b2b-8a9f-4593-a20f-9d65d9de4186",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='123456a']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "123456a"
+    }, {
+      "id": "cc9e1bab-d37e-4085-8c89-a275e0cb559c",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "174,18"
+    }, {
+      "id": "b985468d-1a00-4644-8694-899e5f8c0ac8",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "174,18"
+    }, {
+      "id": "e7cc861b-d1f8-4661-be48-dbbeaf43f84f",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "174,18"
+    }, {
+      "id": "0cb343ed-a3f3-4d48-9052-d4e520467826",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2c37ab4-8f50-4b22-9cb7-23683572a045",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='123456a']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0bda6f8-0f2f-4d1d-84c7-034c7f8ace73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mod-input-password-icon",
+      "targets": [
+        ["css=.mod-input-password-icon", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14b846fd-9002-42a4-80d3-dcf83c08726a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='123456a']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b597be5b-1488-401c-82e5-ea082e83a715",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='123456A']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "123456A"
+    }, {
+      "id": "dceab06c-7d48-419b-8cd4-42893b073ba0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "294b5125-42ec-497c-b6e9-6b96b5965055",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-feedback-content",
+      "targets": [
+        ["css=.next-feedback-content", "css:finder"],
+        ["xpath=//div[6]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1cdb6e1-d940-4724-9ecf-a72884dbb1b7",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Daraz.com.bd: Online Shopping Bangladesh - Mobiles, Tablets, Home Appliances, TV, Audio &amp; More",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9afbfcf7-f157-4364-afc3-791c49d845f9",
+    "name": "LOG OUT",
+    "commands": [{
+      "id": "66258636-52ce-46d4-bcbe-67ef3d47391c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.cart.header.dhome.453e2829YQQnVl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f198412-3fd8-4e05-bef1-1a99b4e7276e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6695046e-0d8a-4cd5-afec-5e4ada1b547c",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "352e219d-7a2f-470a-8f4d-6f1dcc863498",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.account-item:nth-child(6) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//member.daraz.com.bd/user/logout?spm=a2a0e.home.header.17.775a12f7192a5c')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e9e4c44-e04e-4350-943e-e3b1bd6ff0e8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.J_Item:nth-child(1) .main-img",
+      "targets": [
+        ["css=.J_Item:nth-child(1) .main-img", "css:finder"],
+        ["xpath=//img[@alt='For a glamorous look']", "xpath:img"],
+        ["xpath=//section/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b9b7eab-0695-4c36-8ad3-82e2edc45763",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.J_Item:nth-child(1) .main-img",
+      "targets": [
+        ["css=.J_Item:nth-child(1) .main-img", "css:finder"],
+        ["xpath=//img[@alt='For a glamorous look']", "xpath:img"],
+        ["xpath=//section/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "42929163-4e9e-4adb-86bf-fd6aff26d3bf",
+    "name": "LANGUAGE CHANGE",
+    "commands": [{
+      "id": "7302d22e-43ce-4bca-91a0-f9e740e0509c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.cart.header.dhome.453e2829YQQnVl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afe378f7-2b69-41fe-bbd7-17056913a2c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "453c912c-8cba-401e-b184-40a9466fedc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionSwitchLang > span",
+      "targets": [
+        ["css=#topActionSwitchLang > span", "css:finder"],
+        ["xpath=//div[@id='topActionSwitchLang']/span", "xpath:idRelative"],
+        ["xpath=//div[7]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ভাষা')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f1866b7-a610-45f6-af15-bba9f62e72a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-switch-item:nth-child(1)",
+      "targets": [
+        ["css=.lzd-switch-item:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='lzdSwitchPop']/div/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cb6f0d6f-235d-4a04-8c9f-55203988a01a",
+    "name": "MANAGE MY PROFILE",
+    "commands": [{
+      "id": "25fc87d5-3441-44f4-9478-b6bb6944d49c",
+      "comment": "",
+      "command": "open",
+      "target": "https://member.daraz.com.bd/user/profile#/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27c8726d-a57e-426b-ae2d-311e0aff9d7e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b13ad7ca-7e8f-4d7e-b5b8-8fe8a80de355",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EDIT",
+      "targets": [
+        ["linkText=EDIT", "linkText"],
+        ["css=.dashboard-profile > .dashboard-mod-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'EDIT')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#/profile/edit')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EDIT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea826b5c-755f-466f-a37e-a271afb69651",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='ABRAR HAMIM']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43ac791b-ebb3-4f1a-b705-4e24af0a2c15",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='ABRAR']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "ABRAR"
+    }, {
+      "id": "7610f066-af64-45bd-94db-f4f5b4991cd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SAVE CHANGES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5570e75d-0981-4fdc-ad17-e19e8232d6f6",
+    "name": "ADD TO CART",
+    "commands": [{
+      "id": "780dd6c8-ce10-44f9-8743-544d31e8d7dc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e655222-45d9-452a-a33f-329b947a4ef4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcdba055-51d7-4d6f-8cac-53257a71579b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(4) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(4) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='5M Highly Durable Cable Organizer Velcro Straps']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[4]/div/img", "xpath:idRelative"],
+        ["xpath=//a[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "101af895-ba24-4563-aabc-a90d97ac8278",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-icon-add",
+      "targets": [
+        ["css=.next-icon-add", "css:finder"],
+        ["xpath=//div[@id='module_quantity-input']/div/div/div/div/div/a/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84c74eb3-9930-4e4f-83fb-5cceaafe9e5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-icon-add",
+      "targets": [
+        ["css=.next-icon-add", "css:finder"],
+        ["xpath=//div[@id='module_quantity-input']/div/div/div/div/div/a/span/i", "xpath:idRelative"],
+        ["xpath=//span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87ef2185-085b-4e84-bee4-695389b2a961",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_orange > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_orange > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button[2]/span/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "336288ea-08e6-4918-8e1d-d09dbf354598",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pdp-button_theme_orange > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_orange > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button[2]/span/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ad71152-f990-4edd-84ad-524d33c006db",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.pdp-button_theme_orange > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_orange > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button[2]/span/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3bc7e5c-1af8-47f8-a466-5e22d08fd88a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-body-1']/div/div/div/div[2]/div/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'GO TO CART')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5d52b445-4660-4784-a74f-2912742c5bbf",
+    "name": "SELLER PROFILE CHECK",
+    "commands": [{
+      "id": "571f0aa0-a08a-4898-b6b3-0343f4337e95",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/products/5m-highly-durable-cable-organizer-velcro-straps-i224090358-s1169860663.html?spm=a2a0e.home.flashSale.5.47a912f7MCtNh8",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "531206c4-1b87-4d94-83f3-2e4df985280c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1211x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc16b386-118c-4ae4-9625-09944e712639",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-link_size_l",
+      "targets": [
+        ["css=.pdp-link_size_l", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tvc Asian Sky Shop')])[2]", "xpath:link"],
+        ["xpath=//div[@id='module_seller_info']/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.bd/shop/tvc-asian-sky-shop/?spm=a2a0e.pdp.seller.1.7c09r6LIr6LIjy&itemId=224090358&channelSource=pdp')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41a87dfb-9ab4-4de3-b105-79137a798d6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > div:nth-child(2) div:nth-child(3)",
+      "targets": [
+        ["css=div:nth-child(2) > div:nth-child(2) div:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='pi-component-container']/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "039e1a6b-ddcf-4317-ac65-39eaa2f8b618",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sis-seller-reviews:nth-child(3) .current",
+      "targets": [
+        ["css=.sis-seller-reviews:nth-child(3) .current", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='sis_seller_ratings_reviews']/div[2]/div[3]/div[6]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "55c2f8db-428d-4730-8526-3bd2e664587b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sis-seller-reviews:nth-child(3) .next-btn:nth-child(2)",
+      "targets": [
+        ["css=.sis-seller-reviews:nth-child(3) .next-btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='sis_seller_ratings_reviews']/div[2]/div[3]/div[6]/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e03033f3-3fd0-46e5-a9b7-936937604470",
+    "name": "SELLER ALL PRODUCTS CHECK",
+    "commands": [{
+      "id": "d2142611-02b5-4d1d-ac8f-27560d68e8b2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/products/5m-highly-durable-cable-organizer-velcro-straps-i224090358-s1169860663.html?spm=a2a0e.home.flashSale.5.47a912f7MCtNh8",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6912ee5e-14e4-4885-b454-a6ca88ac22d8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1211x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e82e6123-9eff-49e7-828d-521f9c0a1caa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-link_size_l",
+      "targets": [
+        ["css=.pdp-link_size_l", "css:finder"],
+        ["xpath=(//a[contains(text(),'Tvc Asian Sky Shop')])[2]", "xpath:link"],
+        ["xpath=//div[@id='module_seller_info']/div/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.bd/shop/tvc-asian-sky-shop/?spm=a2a0e.pdp.seller.1.7c09E8iaE8ialj&itemId=224090358&channelSource=pdp')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c230ef67-71c1-413e-ab05-5581038235de",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=div:nth-child(2) > div > a > img",
+      "targets": [
+        ["css=div:nth-child(2) > div > a > img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static-01.daraz.com.bd/other/shop/f22966f1ed6c28ca18d6ebe06e3fe903.jpeg')]", "xpath:img"],
+        ["xpath=//div[@id='pi-component-container']/div/div[3]/div[2]/div/div/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea75f4ce-b3fd-496a-913f-045a1a2cad08",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(2)",
+      "targets": [
+        ["css=div:nth-child(2) > div:nth-child(2) > div > div > div > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='pi-component-container']/div/div[2]/div/div/div/div[2]/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ba1a99f-e3d4-4ed9-8547-76c013e69aff",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,333)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c557313-da65-4e31-8cd0-5bda642cd18b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1000)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c732be88-1e8d-4f73-b7e5-78a73261937d",
+    "name": "SELLER CHAT",
+    "commands": [{
+      "id": "c0c212e2-de9e-4019-914c-1c907f908c0a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/products/5m-highly-durable-cable-organizer-velcro-straps-i224090358-s1169860663.html?spm=a2a0e.home.flashSale.5.47a912f7MCtNh8",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f781cd91-7de3-4e1e-ada2-4e3a5f59d17d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f78ac1bd-1845-4efd-9734-22ca6c3d02a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.seller-im-content > span:nth-child(2)",
+      "targets": [
+        ["css=.seller-im-content > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='module_seller_info']/div/div/div[2]/span/span[2]", "xpath:idRelative"],
+        ["xpath=//span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75e02304-896e-4c7c-81ee-ff00e516e137",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.desc",
+      "targets": [
+        ["css=.desc", "css:finder"],
+        ["xpath=//div[@id='webim-container']/div/div/span/div/div[2]/div/div/div/div/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b77a8f7b-13a9-452f-a466-d150d2671812",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.desc",
+      "targets": [
+        ["css=.desc", "css:finder"],
+        ["xpath=//div[@id='webim-container']/div/div/span/div/div[2]/div/div/div/div/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "840fbb68-3b40-424c-8218-0608b60489ab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1797ba0b-5036-4760-8b7d-9cebae1c36cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.message-fileds__autosize",
+      "targets": [
+        ["css=.message-fileds__autosize", "css:finder"],
+        ["xpath=//div[@id='webim-container']/div/div/span/div[2]/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c24aaf5c-0367-4052-9b99-cad59c440438",
+      "comment": "",
+      "command": "type",
+      "target": "css=.message-fileds__autosize",
+      "targets": [
+        ["css=.message-fileds__autosize", "css:finder"],
+        ["xpath=//div[@id='webim-container']/div/div/span/div[2]/form/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "HI"
+    }, {
+      "id": "3ce0608f-bbda-4d5d-8c4d-a8e6cd0e831c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.message-view-field__send",
+      "targets": [
+        ["css=.message-view-field__send", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='webim-container']/div/div/span/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f30054bf-576a-4d61-8e93-94fc124f0ddb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6e0bfd32-a1bf-4f11-ae7d-8dea00c790bd",
+    "name": "Categories check",
+    "commands": [{
+      "id": "e23c985a-bb3c-46d7-be7f-6d162476e73f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.8553159.header.dhome.e1ee2943EP3hA2#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bb449b6-5d01-4791-a7b5-e6a27ef0019f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1211x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "486d8e72-a0fd-4626-8ee8-ed7b2c98d7ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > span",
+      "targets": [
+        ["css=.hover > span", "css:finder"],
+        ["xpath=//li[@id='Level_1_Category_No1']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/ul/li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08771e12-ef0a-4197-89d0-08ec4e5230d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Level_1_Category_No1 > .lzd-site-menu-sub-item:nth-child(1) > a > span",
+      "targets": [
+        ["css=.Level_1_Category_No1 > .lzd-site-menu-sub-item:nth-child(1) > a > span", "css:finder"],
+        ["xpath=//div[@id='J_3442298940']/div/ul/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//ul/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Traditional Wear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca37325a-2d90-43ab-ac44-f25d859e7ce6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-site-menu-nav-category-text",
+      "targets": [
+        ["css=.lzd-site-menu-nav-category-text", "css:finder"],
+        ["xpath=//div[@id='J_1315358880']/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce1f3b75-01e9-4a56-96b4-e737f7aa35c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > span",
+      "targets": [
+        ["css=.hover > span", "css:finder"],
+        ["xpath=//li[@id='Level_1_Category_No7']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/ul/li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'TV & Home Appliances')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afcddb77-b9f6-42e1-812d-a66548f352bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-site-menu-grand-item:nth-child(1) span",
+      "targets": [
+        ["css=.lzd-site-menu-grand-item:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='J_3442298940']/div/ul/ul[7]/li[7]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Sharp')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3a06121-2eea-460d-94cb-b2291e517256",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-site-menu-nav-category-text",
+      "targets": [
+        ["css=.lzd-site-menu-nav-category-text", "css:finder"],
+        ["xpath=//div[@id='J_1315358880']/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de5f82e6-f270-42b5-8827-27c69a029077",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Level_1_Category_No9 > .lzd-site-menu-sub-item:nth-child(8) span",
+      "targets": [
+        ["css=.Level_1_Category_No9 > .lzd-site-menu-sub-item:nth-child(8) span", "css:finder"],
+        ["xpath=//div[@id='J_3442298940']/div/ul/ul[9]/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//ul[9]/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Laundry & Household')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2505d4b8-e45c-43b6-bac2-51c269ec7df7",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.lzd-site-menu-sub-item > .hover > span",
+      "targets": [
+        ["css=.lzd-site-menu-sub-item > .hover > span", "css:finder"],
+        ["xpath=//div[@id='J_3442298940']/div/ul/ul[9]/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//ul[9]/li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Laundry & Household')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddd12768-e466-4c5f-bec6-656ed0ff0c04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-site-menu-grand-active > .lzd-site-menu-grand-item:nth-child(1) span",
+      "targets": [
+        ["css=.lzd-site-menu-grand-active > .lzd-site-menu-grand-item:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='J_3442298940']/div/ul/ul[9]/li[5]/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Milk Powder')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c063823-0f1e-4b6b-91ba-4212b99f9d67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-site-menu-nav-category-text",
+      "targets": [
+        ["css=.lzd-site-menu-nav-category-text", "css:finder"],
+        ["xpath=//div[@id='J_1315358880']/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Categories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7af8178-808e-4ebd-9e67-2e05c09bd009",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover > span",
+      "targets": [
+        ["css=.hover > span", "css:finder"],
+        ["xpath=//li[@id='Level_1_Category_No7']/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/ul/li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'TV & Home Appliances')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c6b923f2-c253-4a45-ad42-174aedf84419",
+    "name": "Search product",
+    "commands": [{
+      "id": "d0d5e66d-d7ac-43f0-9606-a726312c43b7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.8553159.header.dhome.e1ee2943EP3hA2#hp-flash-sale",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad233d44-5198-49f3-8f77-38893a666225",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1211x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dbe5cb5-5e92-4cc3-9ad7-4b012c0e344f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card-fs-content-body-unit:nth-child(3) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(3) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='DICTAMNI Hemorrhoids Herbal Cream 20g (3 pcs combo)']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[3]/div/img", "xpath:idRelative"],
+        ["xpath=//a[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d8ee72f-78ad-496c-90c3-dc96d4a21e8b",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7016d56-1693-4822-8de4-553c6bedd8a3",
+      "comment": "",
+      "command": "type",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "good knight"
+    }, {
+      "id": "5735b89d-5e03-41ae-baec-b318c53360c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-box__button--1oH7",
+      "targets": [
+        ["css=.search-box__button--1oH7", "css:finder"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SEARCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a30df3d-0830-45a5-b3e1-ffec718b4cd3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1333)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "455cdcdc-f28b-4ac0-988f-349c9ab70ff7",
+    "name": "Chat with customer care ",
+    "commands": [{
+      "id": "23626675-c66e-42f4-b869-7d04a82b6068",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.8553159.header.dhome.e1ee2943EP3hA2#hp-flash-sale",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b8ac4b3-da86-41d4-9d51-373132762b56",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1211x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb605795-711d-4228-81fb-07db27f79fd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionCustomCare > span",
+      "targets": [
+        ["css=#topActionCustomCare > span", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'CUSTOMER CARE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db8583a2-99b3-47a5-bbad-cd8f0797d075",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.top-links-item:nth-child(2) > .grey",
+      "targets": [
+        ["css=.top-links-item:nth-child(2) > .grey", "css:finder"],
+        ["xpath=//a[contains(text(),'Daraz Donates')]", "xpath:link"],
+        ["xpath=//div[@id='topActionLinks']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//pages.daraz.com.bd/wow/gcp/daraz/channel/bd/help-page/daraz-donation-to-make-difference')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0225888a-5925-494e-9329-6e1275ebc5cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chat with Us",
+      "targets": [
+        ["linkText=Chat with Us", "linkText"],
+        ["css=.care-item:nth-child(2) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//ai.alimebot.daraz.com.bd/intl/index.htm?spm=a2a0e.home.header.5.947612f7NL8Q0S&from=TwnJ1IESFu&_lang=en-BD')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chat with Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6d085cc-5007-4ae6-b645-1c6a1e261e47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Input",
+      "targets": [
+        ["css=.Input", "css:finder"],
+        ["xpath=//textarea[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[3]/div[3]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f2a63d6-5a86-45b0-a6b0-49a2cdfaed38",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2283b327-8421-4f3d-b34e-f3f3fd4199ce",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3cbca3c7-109a-4abd-a1eb-edaef3cdfa5f",
+    "name": "HELP CENTER FOR ORDER",
+    "commands": [{
+      "id": "f8c0cf05-61b6-489a-9986-cf76340a8cde",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.8553159.header.dhome.e1ee2943EP3hA2#hp-flash-sale",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ab454b9-19f5-4afe-986b-2fdb7b8f1160",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1211x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5afcdcb-2eeb-4cbd-8b03-0ed807e5f6a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionCustomCare > span",
+      "targets": [
+        ["css=#topActionCustomCare > span", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'CUSTOMER CARE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2e23da5-db2a-49c0-86bb-38f0c5d2ae6f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Chat with Us",
+      "targets": [
+        ["linkText=Chat with Us", "linkText"],
+        ["css=.care-item:nth-child(2) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//ai.alimebot.daraz.com.bd/intl/index.htm?from=TwnJ1IESFu&_lang=en-BD')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chat with Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e17ed843-3d66-4ad9-a795-19d70807a3a0",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Chat with Us",
+      "targets": [
+        ["linkText=Chat with Us", "linkText"],
+        ["css=.care-item:nth-child(2) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//ai.alimebot.daraz.com.bd/intl/index.htm?from=TwnJ1IESFu&_lang=en-BD')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chat with Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b833a08e-2172-4240-a7de-c90a86174f78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Order",
+      "targets": [
+        ["linkText=Order", "linkText"],
+        ["css=.care-item:nth-child(3) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//helpcenter.daraz.com.bd/page/knowledge?spm=a2a0e.home.header.6.947612f7bWFu4C&pageId=11&category=1000001019')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e08f8df-3cd0-442c-bf73-5128d13b2400",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Payment",
+      "targets": [
+        ["linkText=Payment", "linkText"],
+        ["css=.care-item:nth-child(5) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//helpcenter.daraz.com.bd/page/knowledge?pageId=11&category=1000001020')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82e49d74-cfa2-4a82-bb14-0ae46e39a4ae",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Payment",
+      "targets": [
+        ["linkText=Payment", "linkText"],
+        ["css=.care-item:nth-child(5) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//helpcenter.daraz.com.bd/page/knowledge?pageId=11&category=1000001020')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Payment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "771589a7-a89e-41ea-8570-68d6fc202524",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001019$Menu']/li", "xpath:idRelative"],
+        ["xpath=//li[4]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d6ac9e4-416e-41be-9008-ac3c304dca38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001019$Menu']/li[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eade34b-dd95-41d7-84a1-764167894ec9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001019$Menu']/li[3]", "xpath:idRelative"],
+        ["xpath=//li[4]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "86d0a534-63d6-4949-8465-f4878b1d48c2",
+    "name": "HELP CENTER FOR  SHIPPING & DELIVERY",
+    "commands": [{
+      "id": "b6dee104-93da-4b5d-bca4-4bdc273685f7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.8553159.header.dhome.e1ee2943EP3hA2#hp-flash-sale",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70475edf-43ab-49cb-8f0d-2d4dece27151",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1211x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "203794ed-a398-4c16-9c4c-9f8dca8adc88",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionCustomCare > span",
+      "targets": [
+        ["css=#topActionCustomCare > span", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'CUSTOMER CARE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2c78311-d32e-4a57-8349-6d856c947664",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.orange",
+      "targets": [
+        ["css=.orange", "css:finder"],
+        ["xpath=//a[contains(text(),'Sell on Daraz')]", "xpath:link"],
+        ["xpath=//div[@id='topActionSell']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//sellercenter.daraz.com.bd/apps/seller/login?spm=a2o2r5.tm80054737.9181799350.1.eb524c70bCQ3n7&regist=true')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5687262-611f-48dd-86b2-9945926decc2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Order",
+      "targets": [
+        ["linkText=Order", "linkText"],
+        ["css=.care-item:nth-child(3) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//helpcenter.daraz.com.bd/page/knowledge?pageId=11&category=1000001019')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "749378e1-8b5d-4eb2-85bf-b3ee988b75c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shipping & Delivery",
+      "targets": [
+        ["linkText=Shipping & Delivery", "linkText"],
+        ["css=.care-item:nth-child(4) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//helpcenter.daraz.com.bd/page/knowledge?spm=a2a0e.home.header.7.947612f7TFvOy0&pageId=11&category=1000001021')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shipping & Delivery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44b193ee-90ff-4940-ade4-a16a3d6c98d9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=CCMS - Central Complain Management System",
+      "targets": [
+        ["linkText=CCMS - Central Complain Management System", "linkText"],
+        ["css=.care-item:nth-child(7) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//ccms.gov.bd/ticket-apply?token=DAR-3011-iIMd2')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CCMS - Central Complain Management System')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54ee7984-af11-41e0-acd9-95f3449bb2ea",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=CCMS - Central Complain Management System",
+      "targets": [
+        ["linkText=CCMS - Central Complain Management System", "linkText"],
+        ["css=.care-item:nth-child(7) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//ccms.gov.bd/ticket-apply?token=DAR-3011-iIMd2')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CCMS - Central Complain Management System')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef351787-c9a4-4623-82eb-40ae66c6e53c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001021$Menu']/li", "xpath:idRelative"],
+        ["xpath=//li[8]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd92920f-1316-4dd6-be42-af6932f9c2f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001021$Menu']/li[2]", "xpath:idRelative"],
+        ["xpath=//li[8]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11a7b83e-8895-442f-9397-10514084873b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001021$Menu']/li[3]", "xpath:idRelative"],
+        ["xpath=//li[8]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a06fb27-c9f0-4643-9a1b-6ce9b3e53698",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001021$Menu']/li[4]", "xpath:idRelative"],
+        ["xpath=//li[8]/ul/li[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a8ca70b1-1d79-4295-a24c-52401f64d112",
+    "name": "HELP CENTER FOR Categories",
+    "commands": [{
+      "id": "34dddf05-cc28-411f-af66-e5c934ac0dfa",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.8553159.header.dhome.e1ee2943EP3hA2#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc9a1065-0f2e-40a4-b385-5b03b666ca18",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1211x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4a49ba4-1c1f-425d-98b5-a4abc1d86623",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionCustomCare > span",
+      "targets": [
+        ["css=#topActionCustomCare > span", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'CUSTOMER CARE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "49add489-b322-45db-898f-7bc49f8c28f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shipping & Delivery",
+      "targets": [
+        ["linkText=Shipping & Delivery", "linkText"],
+        ["css=.care-item:nth-child(4) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//helpcenter.daraz.com.bd/page/knowledge?spm=a2a0e.home.header.7.947612f7NlGedG&pageId=11&category=1000001021')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shipping & Delivery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f46f668-0859-4f47-8547-cee6d16a1b30",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.care-item:nth-child(4) > .care-item-anchor",
+      "targets": [
+        ["css=.care-item:nth-child(4) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//helpcenter.daraz.com.bd/page/knowledge?pageId=11&category=1000001021')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shipping & Delivery')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbc4f08a-de42-4495-83bf-67c1449f7856",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.care-item:nth-child(4) > .care-item-anchor",
+      "targets": [
+        ["css=.care-item:nth-child(4) > .care-item-anchor", "css:finder"],
+        ["xpath=//div[@id='topActionCustomCare']/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//helpcenter.daraz.com.bd/page/knowledge?pageId=11&category=1000001021')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56dee24d-d3eb-450a-87cc-a3bf0eb014bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-submenu-active > .ant-menu-submenu-title",
+      "targets": [
+        ["css=.ant-menu-submenu-active > .ant-menu-submenu-title", "css:finder"],
+        ["xpath=//div[@id='helphub']/div[3]/div/div[2]/div/div/ul/li[3]/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f32d39de-84fb-419b-9beb-0bc4deb66307",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001016$Menu']/li", "xpath:idRelative"],
+        ["xpath=//li[3]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2555d67-5d37-4e56-8c0b-a61f9b795f76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001016$Menu']/li[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df9698e2-0966-4092-a6f6-822a36b57ab2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-submenu-active > .ant-menu-submenu-title",
+      "targets": [
+        ["css=.ant-menu-submenu-active > .ant-menu-submenu-title", "css:finder"],
+        ["xpath=//div[@id='helphub']/div[3]/div/div[2]/div/div/ul/li[4]/div", "xpath:idRelative"],
+        ["xpath=//li[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2e759e5-a885-4f49-a368-6a9dc23664db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001019$Menu']/li", "xpath:idRelative"],
+        ["xpath=//li[4]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d150f51c-f5f2-4b42-8d95-b8a334be5aea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001019$Menu']/li[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd1177c4-8a26-4a8b-b39c-ed1ea9ad71a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001019$Menu']/li[3]", "xpath:idRelative"],
+        ["xpath=//li[4]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26edd871-b20d-47fa-9710-d5536014657d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-submenu-active > .ant-menu-submenu-title",
+      "targets": [
+        ["css=.ant-menu-submenu-active > .ant-menu-submenu-title", "css:finder"],
+        ["xpath=//div[@id='helphub']/div[3]/div/div[2]/div/div/ul/li[5]/div", "xpath:idRelative"],
+        ["xpath=//li[5]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c630bc1-0bc3-437f-b79f-4d316cb13ae1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001020$Menu']/li", "xpath:idRelative"],
+        ["xpath=//li[5]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33d5136f-384e-48e2-83d3-419b5f772cc3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001020$Menu']/li[2]", "xpath:idRelative"],
+        ["xpath=//li[5]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4df78f4c-076f-49d4-94d0-c2eba96899a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001020$Menu']/li[3]", "xpath:idRelative"],
+        ["xpath=//li[5]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "768dc9e5-b2f2-48f3-b61f-b8999f439220",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14d8071e-38a5-44d2-bf68-4862d669ea80",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-submenu-active > .ant-menu-submenu-title",
+      "targets": [
+        ["css=.ant-menu-submenu-active > .ant-menu-submenu-title", "css:finder"],
+        ["xpath=//div[@id='helphub']/div[3]/div/div[2]/div/div/ul/li[6]/div", "xpath:idRelative"],
+        ["xpath=//li[6]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98a39f1c-7503-4332-a782-0bc478b4f9c2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93f2e43f-3cfa-4852-a7e0-e10c69ed0377",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001017$Menu']/li[3]", "xpath:idRelative"],
+        ["xpath=//li[6]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0159fc46-5146-4084-8db6-b7f42c3592e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-submenu-active > .ant-menu-submenu-title",
+      "targets": [
+        ["css=.ant-menu-submenu-active > .ant-menu-submenu-title", "css:finder"],
+        ["xpath=//div[@id='helphub']/div[3]/div/div[2]/div/div/ul/li[7]/div", "xpath:idRelative"],
+        ["xpath=//li[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc07b7fd-7946-4c67-912c-ddcc86cd0c0e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,53)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ea45cb6-3ed9-4f64-ad61-a1c65660927b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001022$Menu']/li", "xpath:idRelative"],
+        ["xpath=//li[7]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "780064ef-103d-4afe-8025-7b83e70564bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001022$Menu']/li[2]", "xpath:idRelative"],
+        ["xpath=//li[7]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74a9beb6-6d13-4d18-9dc8-bede527b148c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001022$Menu']/li[3]", "xpath:idRelative"],
+        ["xpath=//li[7]/ul/li[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77e2be2f-859e-4b75-a2c5-8e95a3efd3aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001021$Menu']/li[2]", "xpath:idRelative"],
+        ["xpath=//li[8]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a3cd311-d425-4e93-86e6-ed57a0c879b9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1007)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fb5c875-67f8-4419-81c8-117b4b43c8f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001021$Menu']/li[4]", "xpath:idRelative"],
+        ["xpath=//li[8]/ul/li[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e992842b-d0d7-440c-9cfe-a03500ae2d2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001021$Menu']/li[2]", "xpath:idRelative"],
+        ["xpath=//li[8]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd916ff5-291c-49f7-92b2-f153443d3ef1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51d7c22d-c13d-4376-a7d5-e96bd9c631d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-submenu-active > .ant-menu-submenu-title",
+      "targets": [
+        ["css=.ant-menu-submenu-active > .ant-menu-submenu-title", "css:finder"],
+        ["xpath=//div[@id='helphub']/div[3]/div/div[2]/div/div/ul/li[9]/div", "xpath:idRelative"],
+        ["xpath=//li[9]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48f8d00f-4ffa-4f1f-82c7-644bf2eb8fd9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Join the Daraz Affiliate Program",
+      "targets": [
+        ["linkText=Join the Daraz Affiliate Program", "linkText"],
+        ["css=.footer-list:nth-child(4) > .footer-li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Join the Daraz Affiliate Program')]", "xpath:link"],
+        ["xpath=//div[@id='J_1362278930']/section/div/div/div/ul[2]/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.bd/daraz-affiliate-program/?scm=1003.4.icms-zebra-100022982-2888459.OTHER_6035955355_2538025')]", "xpath:href"],
+        ["xpath=//div/ul[2]/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Join the Daraz Affiliate Program')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b2df449-8177-44a0-b413-3013cee1360d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001018$Menu']/li[2]", "xpath:idRelative"],
+        ["xpath=//li[9]/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11f25292-2ffe-48c7-83b7-ac84042506c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-item-active",
+      "targets": [
+        ["css=.ant-menu-item-active", "css:finder"],
+        ["xpath=//ul[@id='1000001018$Menu']/li", "xpath:idRelative"],
+        ["xpath=//li[9]/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fa990931-0962-4a36-8508-1031459e87f1",
+    "name": "Daraz Donate program",
+    "commands": [{
+      "id": "b1f8437f-9163-4d59-9ba9-fa2d79054e1c",
+      "comment": "",
+      "command": "open",
+      "target": "https://pages.daraz.com.bd/wow/gcp/daraz/channel/bd/help-page/daraz-donation-to-make-difference?spm=a2o2r5.tm800115569.header.d9.2c7c49f5AtILmq",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60d5bdfd-b820-466f-9906-efd6fd0cfcf2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c71e4120-c077-4d16-8ce3-086245cc59bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-links-item:nth-child(2) > .grey",
+      "targets": [
+        ["css=.top-links-item:nth-child(2) > .grey", "css:finder"],
+        ["xpath=//a[contains(text(),'Daraz Donates')]", "xpath:link"],
+        ["xpath=//div[@id='topActionLinks']/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//pages.daraz.com.bd/wow/gcp/daraz/channel/bd/help-page/daraz-donation-to-make-difference?spm=a2o2r5.tm800115569.header.d9.71ae49f5RWUwvp')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2f8680f-4eb6-4233-b561-c80b2c709ded",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\33 394654870 .rax-view:nth-child(1) > .banner-link:nth-child(1) > .rax-image",
+      "targets": [
+        ["css=#\\33 394654870 .rax-view:nth-child(1) > .banner-link:nth-child(1) > .rax-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://gcp-img.slatic.net/lazada/988f241b-0a08-46a6-85bb-c7ac3efee91f_BD-388-435.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='3394654870']/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "866be937-0797-4e50-9508-e899536139cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\33 394654870 .rax-view:nth-child(1) > .banner-link:nth-child(2) > .rax-image",
+      "targets": [
+        ["css=#\\33 394654870 .rax-view:nth-child(1) > .banner-link:nth-child(2) > .rax-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://gcp-img.slatic.net/lazada/dbda5b24-d2df-4174-afbe-2885c523fe9d_BD-388-435.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='3394654870']/div/div/a[2]/img", "xpath:idRelative"],
+        ["xpath=//a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab3b48bf-ecdd-43bd-a55d-7f2c7cdd0a98",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pdp-button_theme_bluedaraz",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button", "xpath:idRelative"],
+        ["xpath=//div[14]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc44cf1c-f6ad-49e6-a7ff-23646617f8cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\33 394654870 .rax-view:nth-child(1) > .banner-link:nth-child(3) > .rax-image",
+      "targets": [
+        ["css=#\\33 394654870 .rax-view:nth-child(1) > .banner-link:nth-child(3) > .rax-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://gcp-img.slatic.net/lazada/094c2a20-f9fc-4db8-9415-103dfddd7c0e_BD-388-435.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='3394654870']/div/div/a[3]/img", "xpath:idRelative"],
+        ["xpath=//a[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fee0de3-199d-429a-90e8-931942273b19",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rax-view:nth-child(2) > .banner-link:nth-child(1) > .rax-image",
+      "targets": [
+        ["css=.rax-view:nth-child(2) > .banner-link:nth-child(1) > .rax-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://gcp-img.slatic.net/lazada/577222bb-5920-4daa-917f-d06aefbe04dd_BD-388-435.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='3394654870']/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e6cd0ff-1ea6-4a99-8bbc-7afdbb9cd85b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rax-view:nth-child(2) > .banner-link:nth-child(2) > .rax-image",
+      "targets": [
+        ["css=.rax-view:nth-child(2) > .banner-link:nth-child(2) > .rax-image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://gcp-img.slatic.net/lazada/b459298d-2a7b-4650-8d8c-97c550a4f0e5_BD-388-435.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='3394654870']/div/div[2]/a[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "79870571-fff4-4651-920b-f59cb827b791",
+    "name": "Daraz International- pakistan",
+    "commands": [{
+      "id": "16c00996-535b-417d-9308-e6725a638147",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.27096439.header.dhome.42ce7d1dFKE2Gp#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf5663d0-e675-4303-b283-48fe8e2d459a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf14f0d1-7232-4201-9148-9aabdf506eb7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.countdown-content",
+      "targets": [
+        ["css=.countdown-content", "css:finder"],
+        ["xpath=//a[contains(@href, '//pages.daraz.com.bd/wow/gcp/daraz/megascenario/bd/bd-maycampaign-2023/daraz-er-cherag?scm=1003.4.icms-zebra-100031732-2924311.OTHER_6502358853_7710936')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f945e076-6502-44d4-83bc-7d6c579601dc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,251)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23ad36fa-710e-4f7f-b563-8f2a9bf48be8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.countdown-content",
+      "targets": [
+        ["css=.countdown-content", "css:finder"],
+        ["xpath=//a[contains(@href, '//pages.daraz.com.bd/wow/gcp/daraz/megascenario/bd/bd-maycampaign-2023/daraz-er-cherag?scm=1003.4.icms-zebra-100031732-2924311.OTHER_6502358853_7710936')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08e3ccf5-60cd-436f-89ca-1bb756fd9d38",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2386)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f9562d1-1fe4-43f9-9e04-593926ac7680",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3386)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a4b8a0b-1cdc-4602-97f4-4533692ca528",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-yatra-v-pk",
+      "targets": [
+        ["css=.icon-yatra-v-pk", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.pk/?spm=a2a0e.home.venture.1.5b3112f7IObzYn&scm=1003.4.icms-zebra-100022982-2888485.OTHER_5436819021_2538060')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "02a720c8-c3e2-4ddb-9dbe-65bcb8216d48",
+    "name": "Daraz International srilinka",
+    "commands": [{
+      "id": "b362c068-7b4a-459b-92e2-7b9579b45dad",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.27096439.header.dhome.42ce7d1dFKE2Gp#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f18efc28-c90b-4c6f-a89c-3f64813597bb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c47a3aec-6c48-411f-b5b2-a5015787fb09",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,290)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a22ffe14-23a6-4bcb-942a-67ca4895e154",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1cbcef5b-de9d-4c52-aa70-7eaf757be0c6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-yatra-v-lk",
+      "targets": [
+        ["css=.icon-yatra-v-lk", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.lk/?scm=1003.4.icms-zebra-100022982-2888485.OTHER_5436819023_2538060')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6b4b845-57d6-4cf7-bac1-56eba3d8bede",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-yatra-v-lk",
+      "targets": [
+        ["css=.icon-yatra-v-lk", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.lk/?spm=a2a0e.home.venture.3.5b3112f7SYcFwN&scm=1003.4.icms-zebra-100022982-2888485.OTHER_5436819023_2538060')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "702d10b3-d20a-42a4-81e4-d02e5d002993",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.icon-yatra-v-lk",
+      "targets": [
+        ["css=.icon-yatra-v-lk", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.lk/?spm=a2a0e.home.venture.3.5b3112f7SYcFwN&scm=1003.4.icms-zebra-100022982-2888485.OTHER_5436819023_2538060')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "90aa7aa6-d0e0-49d9-a521-0023c83ef1fc",
+    "name": "Daraz International Nepal",
+    "commands": [{
+      "id": "c402025f-3a32-4b75-a9a6-67fe766101cc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.27096439.header.dhome.42ce7d1dFKE2Gp#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dae89d6e-1886-46d5-b93a-4795904b864b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "714ebc50-004f-4f45-87ac-5e109d01b3ce",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1333)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea26ca12-b59e-4597-b569-11af592445f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-yatra-v-np",
+      "targets": [
+        ["css=.icon-yatra-v-np", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[2]/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.np/?spm=a2a0e.home.venture.5.5b3112f7RzPdL3&scm=1003.4.icms-zebra-100022982-2888485.OTHER_5436819025_2538060')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25843f40-bed5-4d1e-9130-9681121f4232",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card-fs-content-body-unit:nth-child(3) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(3) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='Handheld Portable Fan']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[3]/div/img", "xpath:idRelative"],
+        ["xpath=//a[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d08cc47-82dc-4546-abfe-55014fad69a4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.card-fs-content-body-unit:nth-child(3) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(3) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='Handheld Portable Fan']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[3]/div/img", "xpath:idRelative"],
+        ["xpath=//a[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "319fd48e-04d1-4238-a387-fe6ce07647b7",
+    "name": "Daraz International Mayanmar",
+    "commands": [{
+      "id": "a83a0a34-5efe-4f1d-bad5-060247887e7f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.27096439.header.dhome.42ce7d1dFKE2Gp#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "890f63da-ba30-4819-8d3b-d5dea5e562d7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "802fbb4e-8954-44da-add1-ddc5403bac10",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,932)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e415ee7-9684-4e72-8c6b-18e05ed0010c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1334)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c0363e7-8e45-4c20-aae7-a58d4fb0f6d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-yatra-v-mm",
+      "targets": [
+        ["css=.icon-yatra-v-mm", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[2]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.shop.com.mm/en/?spm=a2a0e.home.venture.4.5b3112f7sb94WV&scm=1003.4.icms-zebra-100022982-2888485.OTHER_5436819024_2538060')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4bf6e678-3288-443f-be64-91cf1d3ab67f",
+    "name": "daraz social media side",
+    "commands": [{
+      "id": "eaa3148e-e2ba-470d-8f8a-3e350a743311",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.27096439.header.dhome.42ce7d1dFKE2Gp#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc568903-7aed-4a1f-93b6-eed7826a2df2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba83f8b2-450e-4d2a-b2d8-34ba523c9cd2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-yatra-s-fb",
+      "targets": [
+        ["css=.icon-yatra-s-fb", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.facebook.com/DarazBangladesh?scm=1003.4.icms-zebra-100022982-2933596.OTHER_5476239794_2580063')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d59cbf1-eea9-44d4-9c54-75edc183b8b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-yatra-s-fb",
+      "targets": [
+        ["css=.icon-yatra-s-fb", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.facebook.com/DarazBangladesh?spm=a2a0e.home.1362278930.d_fbk.5b3112f7CrVsLo&scm=1003.4.icms-zebra-100022982-2933596.OTHER_5476239794_2580063')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div[3]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9088",
+      "windowTimeout": 2000
+    }, {
+      "id": "f83a6e1d-e141-441e-803c-0e5446c59842",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.icon-yatra-s-fb",
+      "targets": [
+        ["css=.icon-yatra-s-fb", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.facebook.com/DarazBangladesh?spm=a2a0e.home.1362278930.d_fbk.5b3112f7CrVsLo&scm=1003.4.icms-zebra-100022982-2933596.OTHER_5476239794_2580063')]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c998c20-08ae-4b65-8d45-26c8210ada08",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32a3dad2-5879-4feb-8fd6-e1627ad9f7fe",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9088}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3ab9dd6-b577-4fe8-a6fa-beaaf589adfe",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d250dbd9-79d9-4ca3-b6a4-a9ac231cd904",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2719)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6854827-8d22-4728-81f8-dc202fa64a31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-yatra-s-youtube",
+      "targets": [
+        ["css=.icon-yatra-s-youtube", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[3]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.youtube.com/c/DarazBangladeshOfficial?spm=a2a0e.home.1362278930.d_ytb.5b3112f7CrVsLo&scm=1003.4.icms-zebra-100022982-2933596.OTHER_5476239798_2580063')]", "xpath:href"],
+        ["xpath=//div[3]/a[3]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3131",
+      "windowTimeout": 2000
+    }, {
+      "id": "54a7027c-ffd8-4305-a245-c59f057b4fa4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3131}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b49cd15-ea63-46ff-bc70-2f0e47e77a0b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1760c388-4af4-43f7-8339-4b9141bfd1e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-yatra-s-dblog",
+      "targets": [
+        ["css=.icon-yatra-s-dblog", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[3]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//blog.daraz.com.bd/?spm=a2a0e.home.1362278930.d_dbl.5b3112f7CrVsLo&scm=1003.4.icms-zebra-100022982-2933596.OTHER_5615620668_2580063')]", "xpath:href"],
+        ["xpath=//div[3]/a[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5534",
+      "windowTimeout": 2000
+    }, {
+      "id": "5a117482-277a-45f6-a8db-5c8e2b1210cd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5534}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe521f2a-e100-423c-977c-35fcd1a0ef8c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3178b391-bd08-4de8-906b-75c1056b8a3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-yatra-s-twitter",
+      "targets": [
+        ["css=.icon-yatra-s-twitter", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[3]/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//twitter.com/DarazBangladesh/?spm=a2a0e.home.1362278930.d_twr.5b3112f7CrVsLo&scm=1003.4.icms-zebra-100022982-2933596.OTHER_5476239795_2580063')]", "xpath:href"],
+        ["xpath=//div[3]/a[4]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3465",
+      "windowTimeout": 2000
+    }, {
+      "id": "0d79c4bf-aece-4c39-9127-4790b6ae3433",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3465}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc7ae16c-73f1-4a01-af65-fd9ca8b6bb85",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.r-1wyvozj > .r-o7ynqc",
+      "targets": [
+        ["css=.r-1wyvozj > .r-o7ynqc", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div[2]/div/a/div[4]/div", "xpath:idRelative"],
+        ["xpath=//a/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0268be08-61b4-4a22-a20a-01214eaf42f3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.r-i49rur",
+      "targets": [
+        ["css=.r-i49rur", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[3]/div/div/div/div/div/div/div[2]/div/div[2]/div/a/div[4]/div", "xpath:idRelative"],
+        ["xpath=//a/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "408966fe-0515-411d-889c-c7ac05274a68",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0d026b3-0a40-4a57-8f6b-87d1bb95c058",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f6305232-7c79-4284-a224-1ba07e1ac654",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-yatra-s-insta",
+      "targets": [
+        ["css=.icon-yatra-s-insta", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div[2]/div/div[3]/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//instagram.com/darazbangladesh?spm=a2a0e.home.1362278930.d_ins.5b3112f7CrVsLo&scm=1003.4.icms-zebra-100022982-2933596.OTHER_5476239796_2580063')]", "xpath:href"],
+        ["xpath=//div[3]/a[5]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win444",
+      "windowTimeout": 2000
+    }, {
+      "id": "264d513f-fb43-42d4-9c30-e530dfe0f0f0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win444}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5704ec67-6993-4f8b-965c-cb1f2aca4d54",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abc3d787-ab89-40df-86bc-075e7404c8e1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "51a04c88-a8db-46a8-b132-fa139845a056",
+    "name": "Daraz app download all platfrom",
+    "commands": [{
+      "id": "12fff36c-6ad8-4e6b-9a84-872179d97f2a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/?spm=a2a0e.27096439.header.dhome.42ce7d1dFKE2Gp#hp-categories",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "950e828e-7b2c-4779-8835-7f774154cbe2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59f4fe25-a3e5-4326-960f-97f7e1b62420",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3555)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40f9e935-07f1-4f8c-987b-6297a33d4540",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-appStore-footer",
+      "targets": [
+        ["css=.icon-appStore-footer", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div/div/div[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//itunes.apple.com/app/id978058048?mt=8&scm=1003.4.icms-zebra-100022982-2874591.OTHER_5436817469_2538051')]", "xpath:href"],
+        ["xpath=//section/div/div/div[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60506b93-f70e-410e-9a63-ad23d40d7900",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-appStore-footer",
+      "targets": [
+        ["css=.icon-appStore-footer", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div/div/div[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//itunes.apple.com/app/id978058048?spm=a2a0e.home.footer_top.22.5b3112f7t0L2CD&mt=8&scm=1003.4.icms-zebra-100022982-2874591.OTHER_5436817469_2538051')]", "xpath:href"],
+        ["xpath=//section/div/div/div[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d6a14b1-016a-4d89-bd7a-de033d7b653d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.icon-appStore-footer",
+      "targets": [
+        ["css=.icon-appStore-footer", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div/div/div[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//itunes.apple.com/app/id978058048?spm=a2a0e.home.footer_top.22.5b3112f7t0L2CD&mt=8&scm=1003.4.icms-zebra-100022982-2874591.OTHER_5436817469_2538051')]", "xpath:href"],
+        ["xpath=//section/div/div/div[3]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a39d0ed1-9849-4ddc-9943-e98910bba027",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pull-left:nth-child(2)",
+      "targets": [
+        ["css=.pull-left:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div/div/div[3]/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//play.google.com/store/apps/details?spm=a2a0e.home.footer_top.23.144912f7laiyjj&id=com.daraz.android&scm=1003.4.icms-zebra-100022982-2874591.OTHER_5436817469_2538051')]", "xpath:href"],
+        ["xpath=//div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "747bf8a8-9f90-4e94-9f46-fc4381de6d0a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.icon-huawei-store",
+      "targets": [
+        ["css=.icon-huawei-store", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div/div/div[3]/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//appgallery.huawei.com/?scm=1003.4.icms-zebra-100022982-2874591.OTHER_5436817469_2538051#/app/C100948133')]", "xpath:href"],
+        ["xpath=//div[2]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f6e824d-4e6f-4290-a3b5-b5d4f7b5a9cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-huawei-store",
+      "targets": [
+        ["css=.icon-huawei-store", "css:finder"],
+        ["xpath=//div[@id='J_1362278930']/section/div/div/div[3]/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//appgallery.huawei.com/?spm=a2a0e.home.footer_top.24.144912f7LOMKIE&scm=1003.4.icms-zebra-100022982-2874591.OTHER_5436817469_2538051#/app/C100948133')]", "xpath:href"],
+        ["xpath=//div[2]/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "53c14764-8eb7-4659-8dd9-c3f11d2d1561",
+    "name": "Search history delete",
+    "commands": [{
+      "id": "58578834-2596-48c8-a066-249b42e16af2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "754b8eb4-dd00-422a-a16d-63d435e98e19",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fb369e6-87f2-4dab-83eb-f5d542ea5f9c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.search-box__button--1oH7",
+      "targets": [
+        ["css=.search-box__button--1oH7", "css:finder"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SEARCH')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "328cf433-c4d7-4b6d-ae9f-b95e5edb8c5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08138f18-2f7a-4f46-958d-fd75ab5ba2ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.history__action--1FTv",
+      "targets": [
+        ["css=.history__action--1FTv", "css:finder"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[3]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7a8956b0-f7ef-452e-aba8-3bb916b3826a",
+    "name": "FORGOT PASSWORD",
+    "commands": [{
+      "id": "2cf1fa8d-df65-40aa-85b1-8edc5e05b431",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0af3d13-bbcd-47e9-8ed5-53e3703ee575",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "379233e1-991c-4917-ad3c-f8e8e8270ed3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#anonLogin > .grey",
+      "targets": [
+        ["css=#anonLogin > .grey", "css:finder"],
+        ["xpath=//a[contains(text(),'Signup / Login')]", "xpath:link"],
+        ["xpath=//div[@id='anonLogin']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//member.daraz.com.bd/user/login?spm=a2a0e.home.header.d5.573712f7Xr1Goh')]", "xpath:href"],
+        ["xpath=//div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20f08453-8166-4998-8f22-ecf15ff93e1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forgot Password?",
+      "targets": [
+        ["linkText=Forgot Password?", "linkText"],
+        ["css=.mod-login-forgot > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Forgot Password?')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://member.daraz.com.bd/user/forget-password?spm=a2a0e.login_signup.0.0.16942829czRs3V')]", "xpath:href"],
+        ["xpath=//form/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Forgot Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bfbe52b-0da1-422c-bccc-500a901d5b75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mod-input > input",
+      "targets": [
+        ["css=.mod-input > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f45bbda-74c0-4544-b008-65236e18c25c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.mod-input > input",
+      "targets": [
+        ["css=.mod-input > input", "css:finder"],
+        ["xpath=//input[@value='01581457479']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "01761650051"
+    }, {
+      "id": "fcb990c2-fd45-4ce4-ad11-4c3b97e8653a",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=#container > div",
+      "targets": [
+        ["css=#container > div", "css:finder"],
+        ["xpath=//div[@id='container']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "1174.5,333"
+    }, {
+      "id": "7fa63755-0717-433b-b3f0-c3baf80d6c4b",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=#container > div",
+      "targets": [
+        ["css=#container > div", "css:finder"],
+        ["xpath=//div[@id='container']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "1174.5,333"
+    }, {
+      "id": "af3b8f9f-36c1-47f6-ad1f-5a7c5a638b83",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=#container > div",
+      "targets": [
+        ["css=#container > div", "css:finder"],
+        ["xpath=//div[@id='container']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "1174.5,333"
+    }, {
+      "id": "bf4a3fd5-b55d-4ca5-b0ee-4fd157af7ef9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#container > div",
+      "targets": [
+        ["css=#container > div", "css:finder"],
+        ["xpath=//div[@id='container']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab002420-f2ac-4d3f-997c-2376f5a8b5db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary",
+      "targets": [
+        ["css=.primary", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Verify through SMS Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d27fb4a8-d9b9-4d48-8178-6d8fa675ed61",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mod-sendcode-btn",
+      "targets": [
+        ["css=.mod-sendcode-btn", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SEND')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee4bf32f-002a-4ab6-acb8-6b016df56528",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba67c8ac-a12b-42fe-b301-06f5d8e131ff",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "865267"
+    }, {
+      "id": "31f4630a-1e31-412f-b8ed-9edc330ea55c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary",
+      "targets": [
+        ["css=.primary", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[2]/div/div/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Verify Code')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52383d7b-1ec3-4df7-aec8-877c9154872f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-playground-main",
+      "targets": [
+        ["css=.lzd-playground-main", "css:finder"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11f0f232-a42b-46f4-b1e2-0e23470ce5db",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=//input[@value='1223454321a']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/div/input", "xpath:position"]
+      ],
+      "value": "1223454321a"
+    }, {
+      "id": "17347b2d-f087-4fa3-bbbb-e62d2b7ae1ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-playground-main",
+      "targets": [
+        ["css=.lzd-playground-main", "css:finder"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec9a5ee0-b3be-4186-b814-500cf18d3a71",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9da40c46-57ee-4168-ab76-0d60eb9ceccf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.floating > .mod-input-password-icon",
+      "targets": [
+        ["css=.floating > .mod-input-password-icon", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c0618e7-4042-4957-8467-9d2e8ff79676",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf07e869-4779-41af-b04a-ff10c97d3736",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focus > input",
+      "targets": [
+        ["css=.focus > input", "css:finder"],
+        ["xpath=(//input[@value='1223454321a'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1223454321a"
+    }]
+  }],
+  "suites": [{
+    "id": "070c3924-b968-4468-a946-05288f0f2441",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d027bc68-b914-4202-a17f-5b6ce8c14d0e"]
+  }],
+  "urls": ["https://member.daraz.com.bd/user/register?spm=a2a0e.login_signup.0.0.3fbd2829nb4cWi&redirect=https%3A%2F%2Fwww.daraz.com.bd%2F", "https://www.daraz.com.bd/", "https://member.daraz.com.bd/user/register?spm=a2a0e.login_signup.0.0.23932829ikLDRd&redirect=https%3A%2F%2Fwww.daraz.com.bd%2F", "https://member.daraz.com.bd/user/register?spm=a2a0e.login_signup.0.0.6ac82829iTRbhU", "https://member.daraz.com.bd/user/login?redirect=https%3A%2F%2Fmember.daraz.com.bd%2Fuser%2Fprofile?redirect=https%3A%2F%2Fwww.daraz.com.bd", "https://member.daraz.com.bd/user/login?redirect=https%3A%2F%2Fmember.daraz.com.bd%2Fuser%2Fprofile%3Fredirect%3Dhttps%3A%2F%2Fwww.daraz.com.bd?redirect=https%3A%2F%2Fwww.daraz.com.bd", "https://www.daraz.com.bd/?spm=a2a0e.cart.header.dhome.453e2829YQQnVl", "https://member.daraz.com.bd/user/profile#/", "https://www.daraz.com.bd/#", "https://www.daraz.com.bd/products/5m-highly-durable-cable-organizer-velcro-straps-i224090358-s1169860663.html?spm=a2a0e.home.flashSale.5.47a912f7MCtNh8", "https://www.daraz.com.bd/?spm=a2a0e.8553159.header.dhome.e1ee2943EP3hA2#", "https://www.daraz.com.bd/?spm=a2a0e.8553159.header.dhome.e1ee2943EP3hA2#hp-flash-sale", "https://pages.daraz.com.bd/wow/gcp/daraz/channel/bd/help-page/daraz-donation-to-make-difference?spm=a2o2r5.tm800115569.header.d9.2c7c49f5AtILmq", "https://www.daraz.com.bd/?spm=a2a0e.27096439.header.dhome.42ce7d1dFKE2Gp#"],
+  "plugins": []
+}

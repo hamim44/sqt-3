@@ -1,1 +1,20 @@
 Xpath problem slove {Log in}
+
+12-05-2023
+
+NEW test :
+
+product search filter
+add to cart product delete
+PRODUCT WISHLIST 
+PRODUCT LINK SHARE
+DELIVARY PICKPOINT SELETE
+WISHLIST PRODUCT DELETE
+payment- invalid card number
+place order
+product search filter
+specific product add email
+DELIVARY PICKPOINT SELETE
+payment- valid card number
+My order list
+DELIVARY PICKPOINT SELETE

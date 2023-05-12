@@ -5,7 +5,7 @@
   "url": "https://www.daraz.com.bd/#",
   "tests": [{
     "id": "d027bc68-b914-4202-a17f-5b6ce8c14d0e",
-    "name": "Account  invalid verification",
+    "name": "sign up-Account  invalid verification",
     "commands": [{
       "id": "9e399e98-de7c-4f22-91c6-51edbaf52e10",
       "comment": "",
@@ -537,7 +537,7 @@
     }]
   }, {
     "id": "e564a9da-5d0b-4429-83cb-8e094129fa16",
-    "name": "Account  valid verification",
+    "name": "sign up-Account  valid verification",
     "commands": [{
       "id": "18677abe-0230-4890-8b27-731091fd588c",
       "comment": "",
@@ -857,7 +857,7 @@
         ["xpath=//div[@id='container']/div/div[2]/form/div/div/div[2]/input", "xpath:idRelative"],
         ["xpath=//div/div[2]/input", "xpath:position"]
       ],
-      "value": "123456a"
+      "value": "1223454321a"
     }, {
       "id": "dce84206-9288-40fc-9165-c7dda86534cd",
       "comment": "",
@@ -3997,6 +3997,1376 @@
         ["xpath=//div[@id='container']/div/div[2]/form/div/div[2]/div/button", "xpath:idRelative"],
         ["xpath=//div[2]/div/button", "xpath:position"],
         ["xpath=//button[contains(.,'LOGIN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "236bc904-e13a-4682-b09d-f5d3427ae9de",
+    "name": "add to cart product delete",
+    "commands": [{
+      "id": "68adc222-ff0e-4d14-931b-8d17a036c1d2",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c306a7a8-9b64-4bbf-9bc6-0d5a85977b4a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4532fc7-f01b-4ffc-a344-d60369ac9f09",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-icon > svg",
+      "targets": [
+        ["css=.cart-icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a50e76dc-9f59-420a-ba9a-58d091f31649",
+      "comment": "",
+      "command": "click",
+      "target": "css=.delete",
+      "targets": [
+        ["css=.delete", "css:finder"],
+        ["xpath=//div[@id='item_i17d2633cf']/div/div[2]/div/span[2]/span", "xpath:idRelative"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6e627c9-9c7e-48fd-b057-4861ed66f947",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.next-btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-footer-2']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'REMOVE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6a3f48b5-8758-4f8a-bc08-1aa1a99aa17a",
+    "name": "product search filter",
+    "commands": [{
+      "id": "6b22579e-7a34-42b8-a9cb-d0e7fe8a419d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a3e5414-2899-4ecd-a1b4-efe73c2cae27",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8eff6f11-da5e-4a5c-972f-8074f32def68",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf1b0918-59a1-49d7-aa5c-28113a8d8016",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=good knight",
+      "targets": [
+        ["linkText=good knight", "linkText"],
+        ["css=.history__item--1rg8:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'good knight')]", "xpath:link"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[3]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.bd/catalog/?spm=a2a0e.home.search.1.573712f7rwIH9H&q=good knight&_keyori=ss&from=search_history&sugg=good%20knight_0_1')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'good knight')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05041ae4-83cd-4cd8-af18-5086d242c47c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-panel--ghwYA:nth-child(4) .checkbox--tqPns:nth-child(2) .ant-checkbox-input",
+      "targets": [
+        ["css=.filter-panel--ghwYA:nth-child(4) .checkbox--tqPns:nth-child(2) .ant-checkbox-input", "css:finder"],
+        ["xpath=(//input[@value='on'])[26]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div[2]/div/div[4]/div[2]/div/div/label[2]/span/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/label[2]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3edf877c-fdb8-4f89-8c6f-91e02c29ac85",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17bdbcb8-c2ea-4e4b-81e3-fabaa760bd3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-panel--ghwYA:nth-child(3) .checkbox--tqPns:nth-child(5) .ant-checkbox-input",
+      "targets": [
+        ["css=.filter-panel--ghwYA:nth-child(3) .checkbox--tqPns:nth-child(5) .ant-checkbox-input", "css:finder"],
+        ["xpath=(//input[@value='on'])[24]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div[2]/div/div[3]/div[2]/div/div/label[5]/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/label[5]/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6c47c70-786f-4bad-aa6d-a3e9cac7d1ac",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35184ee4-b90c-4906-b62e-1505b9531c6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-panel--ghwYA:nth-child(8) .checkbox--tqPns:nth-child(6)",
+      "targets": [
+        ["css=.filter-panel--ghwYA:nth-child(8) .checkbox--tqPns:nth-child(6)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div[2]/div/div[8]/div[2]/div/div/label[6]", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/div/div/label[6]", "xpath:position"],
+        ["xpath=//label[contains(.,'Red')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fae146b0-88ab-42ae-a50c-3b2a5215fb63",
+    "name": "PRODUCT WISHLIST ",
+    "commands": [{
+      "id": "bf70fbbe-7605-424e-8cd1-a1ce4f635ecb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ecdbf04-7f74-4887-893c-ab1d104d8b43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eda38c9c-0781-46a3-a81c-de1aaf744531",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(3) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(3) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='High Quality Very Stylish Sunglass For Men']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[3]/div/img", "xpath:idRelative"],
+        ["xpath=//a[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "386ebb1f-9f66-4b02-b529-c1edaf42d827",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wishlist-icon",
+      "targets": [
+        ["css=.wishlist-icon", "css:finder"],
+        ["xpath=//div[@id='module_product_wishlist_1']/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "42fd09b4-e174-4982-9c64-c162b257c042",
+    "name": "WISHLIST PRODUCT CHECK",
+    "commands": [{
+      "id": "39875f58-57da-40de-9f8d-d203e9aff403",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "453f5193-2d08-45d9-bdc2-d5d13d8e7d74",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "411bc865-bc05-41b1-ad0d-da88affb6a1a",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de7a4cc-25ba-4964-b406-761491fb2d2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.account-item:nth-child(3)",
+      "targets": [
+        ["css=.account-item:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/ul/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'My Wishlist & Followed Stores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f667e5c-6dfe-47b0-8757-ac687af2cab1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Wishlist & Followed Stores",
+      "targets": [
+        ["linkText=My Wishlist & Followed Stores", "linkText"],
+        ["css=.account-item:nth-child(3) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.daraz.com.bd/wishlist/index?spm=a2a0e.home.header.14.573712f76V4zVw')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Wishlist & Followed Stores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ac177e7-c4cc-4a70-ad85-faaebec22223",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=High Quality Very Stylish Sunglass For Men",
+      "targets": [
+        ["linkText=High Quality Very Stylish Sunglass For Men", "linkText"],
+        ["css=.title:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'High Quality Very Stylish Sunglass For Men')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.bd/products/i182743154-s1126688269.html?spm=a2a0e.my_wishlist.price_observing.3.763e2829XbNJND')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'High Quality Very Stylish Sunglass For Men')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6688",
+      "windowTimeout": 2000
+    }, {
+      "id": "122030d4-2c18-4b7d-932b-925db18c1901",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6688}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9cee99ad-f461-4835-a533-0217d23f1cb0",
+    "name": "WISHLIST PRODUCT DELETE",
+    "commands": [{
+      "id": "20216f7a-cbbe-42d2-9afc-970fa2827159",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e503373b-c6cc-41c0-8542-4b106ab3a358",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e98de46-f46f-48d8-8cd7-01049217032b",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3388734-5f94-411b-bd4e-9d4be8537f49",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Wishlist & Followed Stores",
+      "targets": [
+        ["linkText=My Wishlist & Followed Stores", "linkText"],
+        ["css=.account-item:nth-child(3) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.daraz.com.bd/wishlist/index?spm=a2a0e.home.header.14.573712f7wn7O4l')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Wishlist & Followed Stores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "962ae6f8-dcdf-430c-91da-5ee4914b027d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lazada-ic-Delete",
+      "targets": [
+        ["css=.lazada-ic-Delete", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "880bf1ec-155c-4605-b88e-e327ebb01895",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ok",
+      "targets": [
+        ["css=.ok", "css:finder"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'REMOVE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5af6b01a-b0c6-4b3a-b5d7-516954dcffc1",
+    "name": "PRODUCT LINK SHARE ",
+    "commands": [{
+      "id": "0c7ee950-3cd5-44dd-b4ab-731bb22e64cf",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e35d9cdb-74c3-4fdd-90d8-49417dfa6f75",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "847bd042-2cdc-4b2e-a199-db02901f163f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(1) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(1) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='Ss World Black Cotton Casual Band Shirt For Men - Shirt For Men']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "868ada06-c0ec-422b-8f21-6290dd71d4ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-share__share-button-icon > .lazadaicon",
+      "targets": [
+        ["css=.pdp-share__share-button-icon > .lazadaicon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6bd483d-1b72-4f3b-ad56-9684abcfe986",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lzd-svg-icon_name_twitter use",
+      "targets": [
+        ["css=.lzd-svg-icon_name_twitter use", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8530",
+      "windowTimeout": 2000
+    }, {
+      "id": "bce6231e-3890-4447-be07-f1b5a04f0567",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8530}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "335c6735-a015-498a-97f6-3dfba6b705e9",
+      "comment": "",
+      "command": "editContent",
+      "target": "css=.DraftEditor-editorContainer:nth-child(1) > .notranslate",
+      "targets": [
+        ["css=.DraftEditor-editorContainer:nth-child(1) > .notranslate", "css:finder"],
+        ["xpath=//div[@id='layers']/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div[3]/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/div/div[2]/div/div/div/div/label/div/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//label/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "<div data-contents=\"true\"><div class=\"\" data-block=\"true\" data-editor=\"flb2n\" data-offset-key=\"6agji-0-0\"><div data-offset-key=\"6agji-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"6agji-0-0\"><span data-text=\"true\">Ss World Black Cotton Casual Band Shirt For Men - Shirt For Men </span></span><span style=\"color: rgb(29, 155, 240); --darkreader-inline-color: #31a4f1;\" data-darkreader-inline-color=\"\"><span data-offset-key=\"6agji-1-0\"><span data-text=\"true\">https://www.daraz.com.bd/products/ss-world-black-cotton-casual-band-shirt-for-men-shirt-for-men-i293850268-s1302750222.html?spm=a2a0e.home.flashSale.2.573712f78eWkoE</span></span></span><span data-offset-key=\"6agji-2-0\"><span data-text=\"true\"> </span></span></div></div></div>"
+    }]
+  }, {
+    "id": "ae7e7609-c921-4f0f-9111-3c8576d6171a",
+    "name": "DELIVARY PICKPOINT SELETE",
+    "commands": [{
+      "id": "02c6fb55-7fae-4c22-9a58-f5d169861d83",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1fd2caf-3b8d-4c35-b53f-714eb87499eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80352ca8-1639-4e13-87f0-aa131833aa9c",
+      "comment": "",
+      "command": "click",
+      "target": "id=q",
+      "targets": [
+        ["id=q", "id"],
+        ["name=q", "name"],
+        ["css=#q", "css:finder"],
+        ["xpath=//input[@id='q']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "271e7af7-fe38-4d8a-a258-e6f35768d180",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=good knight",
+      "targets": [
+        ["linkText=good knight", "linkText"],
+        ["css=.history__item--1rg8:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'good knight')]", "xpath:link"],
+        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[3]/div/div[2]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//www.daraz.com.bd/catalog/?spm=a2a0e.home.search.2.573712f75dFkCc&q=good knight&_keyori=ss&from=search_history&sugg=good%20knight_1_1')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'good knight')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9bee2a5-86c7-4f11-9e59-fe8ada244357",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gridItem--Yd0sa:nth-child(2) .image--WOyuZ",
+      "targets": [
+        ["css=.gridItem--Yd0sa:nth-child(2) .image--WOyuZ", "css:finder"],
+        ["xpath=//img[@alt='GoodKnight Gold Flash Liquid Vaporizer Combi Pack']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/div[2]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3e4f092-55f9-4de6-adcb-68a4eafe2cab",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gridItem--Yd0sa:nth-child(2) .image--WOyuZ",
+      "targets": [
+        ["css=.gridItem--Yd0sa:nth-child(2) .image--WOyuZ", "css:finder"],
+        ["xpath=//img[@alt='GoodKnight Gold Flash Liquid Vaporizer Combi Pack']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/div[2]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b924ba5-d366-41b2-b362-89c74555207f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gridItem--Yd0sa:nth-child(2) .image--WOyuZ",
+      "targets": [
+        ["css=.gridItem--Yd0sa:nth-child(2) .image--WOyuZ", "css:finder"],
+        ["xpath=//img[@alt='GoodKnight Gold Flash Liquid Vaporizer Combi Pack']", "xpath:img"],
+        ["xpath=//div[@id='root']/div/div[3]/div/div/div/div[2]/div[2]/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7505ea2-b858-443e-832c-db571455f2cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_bluedaraz > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc6de442-6683-47b5-8511-902481b4c64c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .action-edit",
+      "targets": [
+        ["css=div:nth-child(2) > .action-edit", "css:finder"],
+        ["xpath=//div[@id='addressV2_2_0']/div/div[2]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Check Pick-up Points')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "587c243b-05c9-413f-83d9-ba9a66af0996",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mod-address-book-card:nth-child(5)",
+      "targets": [
+        ["css=.mod-address-book-card:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='dialog-body-1']/div[2]/div/div/div/div/div[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3773222-0ec7-4d43-87f4-c1b5387396f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn-primary",
+      "targets": [
+        ["css=.next-btn-primary", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-body-1']/div[2]/div/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7a98c4c1-f501-450e-a82a-e6c97275a14d",
+    "name": "specific product add email",
+    "commands": [{
+      "id": "6988e025-9ad7-4651-bad3-98cdbb4061e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a483c728-535d-45ec-a0bd-d7ebbbf25011",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ac747ea-2d2b-4128-a1a3-20c2b62e959f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(4) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(4) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='High Quality Very Stylish Sunglass For Men']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[4]/div/img", "xpath:idRelative"],
+        ["xpath=//a[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80cca7b3-b4c5-493e-961c-759dc864253d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_bluedaraz > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3e5e8ca-6410-4ee5-ae2f-18e3e0694f05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='orderTotalV2_23']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e6fe371-7697-427c-95d9-872f0194ba01",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='orderTotalV2_23']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f2d8066-e029-4667-ad7d-06baca77ad14",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='orderTotalV2_23']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a722e240-326a-4def-86db-e0168720deb3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.editable-content",
+      "targets": [
+        ["css=.editable-content", "css:finder"],
+        ["xpath=//div[@id='editableText_3_0']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "623aa3c9-0bc1-4fe7-9083-97c1d0496e91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action-edit:nth-child(3)",
+      "targets": [
+        ["css=.action-edit:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='editableText_3_0']/div/span[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa8698c2-8731-4e3a-a896-bf82a9875662",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-input > input",
+      "targets": [
+        ["css=.next-input > input", "css:finder"],
+        ["xpath=(//input[@value=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-body-1']/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "295058be-46b0-410f-b0ac-cfb84e6fc2b8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.next-input > input",
+      "targets": [
+        ["css=.next-input > input", "css:finder"],
+        ["xpath=//input[@value='HAMIM@gmail.com']", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-body-1']/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "HAMIM@gmail.com"
+    }, {
+      "id": "8a9c83bf-5b0f-4016-9c06-8071348111c7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.next-input > input",
+      "targets": [
+        ["css=.next-input > input", "css:finder"],
+        ["xpath=//input[@value='HAMIM@gmail.com']", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-body-1']/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3caf522c-c567-4763-a076-e14875dccbde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal-footer-btn",
+      "targets": [
+        ["css=.modal-footer-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-body-1']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "47dfeb3d-2af8-4011-9a22-43957694b7e8",
+    "name": "place order",
+    "commands": [{
+      "id": "960dc3ca-88f5-4556-b353-eeb0978e6913",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2628789c-df9c-4c16-9616-edda19226738",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcf34556-d3ae-47a0-8d89-74ee22e9ad50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(4) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(4) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='High Quality Very Stylish Sunglass For Men']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[4]/div/img", "xpath:idRelative"],
+        ["xpath=//a[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65b0c34d-2f25-4d5e-b981-5eefcd9cb48b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_bluedaraz > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cce1d17c-59cd-4a98-b2a8-a35991f0e3e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='orderTotalV2_23']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc094f7a-7538-4e19-b3d5-e8bc30d01dc9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='orderTotalV2_23']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8ac30a44-3a73-420d-9600-a6c6949f8839",
+    "name": "payment- invalid card number",
+    "commands": [{
+      "id": "9b6a2402-d0c7-47e6-b2a4-59a595f3d288",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#hp-flash-sale",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb6090fd-4433-4c31-ada4-37c52a08dd7e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d595c160-868e-4419-9a3d-79fe944f5d01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(5) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(5) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='Round Zipper Stylish High quality Artificial Leather wallet For Men - Wallet - Wallet For Men - Money Bag For Men - à¦®à¦¾à¦¨à¦¿ à¦¬à§à¦¯à¦¾à¦— - Wallet For Men - মানি ব্যাগ']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[5]/div/img", "xpath:idRelative"],
+        ["xpath=//a[5]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fd23ec9-1bab-42de-8d45-e88f28c28507",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "//*[@id=\"module_add_to_cart\"]/div/button[1]/span/span",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(5) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='Round Zipper Stylish High quality Artificial Leather wallet For Men - Wallet - Wallet For Men - Money Bag For Men - à¦®à¦¾à¦¨à¦¿ à¦¬à§à¦¯à¦¾à¦— - Wallet For Men - মানি ব্যাগ']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[5]/div/img", "xpath:idRelative"],
+        ["xpath=//a[5]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "135f673a-4bb5-4281-b68f-223f993d46a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_bluedaraz > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6bd9e64-a4d1-4476-8c27-40b1a8527d56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='orderTotalV2_23']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94e2c7c7-1393-46a7-9c2a-3d77cda4ac04",
+      "comment": "",
+      "command": "click",
+      "target": "css=#automation-payment-method-item-101 > .icon",
+      "targets": [
+        ["css=#automation-payment-method-item-101 > .icon", "css:finder"],
+        ["xpath=//img[contains(@src,'https://laz-img-cdn.alicdn.com/tfs/TB1qIthr67nBKNjSZLeXXbxCFXa-80-80.png')]", "xpath:img"],
+        ["xpath=//div[@id='automation-payment-method-item-101']/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b3cd7df-3877-4ef9-8724-ef2b840e81c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditCard",
+      "targets": [
+        ["id=creditCard", "id"],
+        ["css=#creditCard", "css:finder"],
+        ["xpath=//input[@id='creditCard']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0034d40c-14d2-4a4a-8d5c-c7763ac5bed3",
+      "comment": "",
+      "command": "type",
+      "target": "id=creditCard",
+      "targets": [
+        ["id=creditCard", "id"],
+        ["css=#creditCard", "css:finder"],
+        ["xpath=//input[@id='creditCard']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "8689 9678 9876 8978"
+    }, {
+      "id": "8bc9dded-f194-4a5f-92e5-1610d3e788b3",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=cardName",
+      "targets": [
+        ["id=cardName", "id"],
+        ["css=#cardName", "css:finder"],
+        ["xpath=//input[@id='cardName']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4f607f0-5cf7-4da6-b053-3affd019a059",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.next-overlay-backdrop",
+      "targets": [
+        ["css=.next-overlay-backdrop", "css:finder"],
+        ["xpath=//body/div[5]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "def55188-0509-4d97-a44c-aebf0a5fb398",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f330942-ea35-4e94-afe7-417c93de5617",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pay-method-wrap-content",
+      "targets": [
+        ["css=.pay-method-wrap-content", "css:finder"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91d9e5e8-ceae-48cd-b274-af37b22a4d64",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.has-error:nth-child(1) > .next-form-item-control",
+      "targets": [
+        ["css=.has-error:nth-child(1) > .next-form-item-control", "css:finder"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div", "xpath:position"]
+      ],
+      "value": "Please input right value!"
+    }]
+  }, {
+    "id": "751a7d2f-9f84-4820-8964-9d7209667b47",
+    "name": "payment- valid card number",
+    "commands": [{
+      "id": "6d3c6500-3f5b-4b48-ae84-76d087057efc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#hp-flash-sale",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9edae2a-d37f-42d0-a79c-e6785bdcbcb0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e327bc95-d70a-411c-879b-e2afa8b34642",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(5) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(5) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='Round Zipper Stylish High quality Artificial Leather wallet For Men - Wallet - Wallet For Men - Money Bag For Men - à¦®à¦¾à¦¨à¦¿ à¦¬à§à¦¯à¦¾à¦— - Wallet For Men - মানি ব্যাগ']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[5]/div/img", "xpath:idRelative"],
+        ["xpath=//a[5]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec7935c-516e-4e24-aaa8-66126b6fc953",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "//*[@id=\"module_add_to_cart\"]/div/button[1]/span/span",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(5) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='Round Zipper Stylish High quality Artificial Leather wallet For Men - Wallet - Wallet For Men - Money Bag For Men - à¦®à¦¾à¦¨à¦¿ à¦¬à§à¦¯à¦¾à¦— - Wallet For Men - মানি ব্যাগ']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[5]/div/img", "xpath:idRelative"],
+        ["xpath=//a[5]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "356d0b85-04c5-4fb8-b0ce-9c0140d8f0d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_bluedaraz > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5e964a0-0d2a-48ea-8276-9eaed05fa685",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='orderTotalV2_23']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78cf7abc-a4b0-4459-a9f5-923f1afaac34",
+      "comment": "",
+      "command": "click",
+      "target": "css=#automation-payment-method-item-101 > .icon",
+      "targets": [
+        ["css=#automation-payment-method-item-101 > .icon", "css:finder"],
+        ["xpath=//img[contains(@src,'https://laz-img-cdn.alicdn.com/tfs/TB1qIthr67nBKNjSZLeXXbxCFXa-80-80.png')]", "xpath:img"],
+        ["xpath=//div[@id='automation-payment-method-item-101']/img", "xpath:idRelative"],
+        ["xpath=//div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "053f08dc-5d24-4663-9608-14d981d3cc20",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditCard",
+      "targets": [
+        ["id=creditCard", "id"],
+        ["css=#creditCard", "css:finder"],
+        ["xpath=//input[@id='creditCard']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5d0b326-041e-49e3-b615-ed68b5ec33c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=creditCard",
+      "targets": [
+        ["id=creditCard", "id"],
+        ["css=#creditCard", "css:finder"],
+        ["xpath=//input[@id='creditCard']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98f1a534-cbdc-42e4-a4e7-fc0130d90013",
+      "comment": "",
+      "command": "type",
+      "target": "id=creditCard",
+      "targets": [
+        ["id=creditCard", "id"],
+        ["css=#creditCard", "css:finder"],
+        ["xpath=//input[@id='creditCard']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "4988 7501 0055 7923"
+    }, {
+      "id": "81808a39-2b3a-434e-9f2b-6eb7cfe5189e",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=cardName",
+      "targets": [
+        ["id=cardName", "id"],
+        ["css=#cardName", "css:finder"],
+        ["xpath=//input[@id='cardName']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f3cc44c-72e0-4c4b-95d3-22dd07745c80",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.next-overlay-backdrop",
+      "targets": [
+        ["css=.next-overlay-backdrop", "css:finder"],
+        ["xpath=//body/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a2535ff-0f03-450c-b3d2-0ec1f0024f3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "111cc0ab-0cb1-44b2-98fe-7eac496b382c",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardName",
+      "targets": [
+        ["id=cardName", "id"],
+        ["css=#cardName", "css:finder"],
+        ["xpath=//input[@id='cardName']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/input", "xpath:position"]
+      ],
+      "value": "abrar hamim"
+    }, {
+      "id": "401a6107-870a-4e01-a2b8-e93b61360baa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-col:nth-child(1)",
+      "targets": [
+        ["css=.next-col:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div[3]/div", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55b9b16a-95ee-435d-95f3-77ac4a213ffe",
+      "comment": "",
+      "command": "click",
+      "target": "id=expiryDate",
+      "targets": [
+        ["id=expiryDate", "id"],
+        ["css=#expiryDate", "css:finder"],
+        ["xpath=//input[@id='expiryDate']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div[3]/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc1b39c7-8c57-438d-ab02-9d2d4c6e13eb",
+      "comment": "",
+      "command": "type",
+      "target": "id=expiryDate",
+      "targets": [
+        ["id=expiryDate", "id"],
+        ["css=#expiryDate", "css:finder"],
+        ["xpath=//input[@id='expiryDate']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div[3]/div/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/span/input", "xpath:position"]
+      ],
+      "value": "07/25"
+    }, {
+      "id": "21c8129c-6ab8-43b5-9e41-360e34e67adb",
+      "comment": "",
+      "command": "click",
+      "target": "id=cvv",
+      "targets": [
+        ["id=cvv", "id"],
+        ["css=#cvv", "css:finder"],
+        ["xpath=//input[@id='cvv']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div[3]/div[2]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcaeee54-af65-431e-8769-c4d02778d019",
+      "comment": "",
+      "command": "type",
+      "target": "id=cvv",
+      "targets": [
+        ["id=cvv", "id"],
+        ["css=#cvv", "css:finder"],
+        ["xpath=//input[@id='cvv']", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div/div/div[2]/form/div[3]/div[2]/div/div/span/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span/input", "xpath:position"]
+      ],
+      "value": "350"
+    }, {
+      "id": "94e373fc-71f6-4ffe-bdb9-7d1652f9beca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pay Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33b0beb0-3dd9-4cc2-8618-ec5eeec2e7e5",
+      "comment": "",
+      "command": "open",
+      "target": "https://ibank.mutualtrustbank.com/login/login.aspx",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d2b5b56b-8d08-4eaf-968d-36f0acfc3c22",
+    "name": "SOME PRODUCT SIZE CHANGE",
+    "commands": [{
+      "id": "9fad0a01-be60-4ec6-b618-3c15f35f65f8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f6033c1-6b98-47d9-a11a-dce54529b07b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53825e2a-5937-4cf6-bf1d-8a63670a3b31",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/products/ss-world-black-cotton-casual-band-shirt-for-men-shirt-for-men-i293850268-s1302750223.html?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6eb4a693-193d-43a6-be23-e39ec34eaf18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sku-variable-size:nth-child(2)",
+      "targets": [
+        ["css=.sku-variable-size:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='module_sku-select']/div/div[2]/div/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6caffcf-4b73-4d9a-8f48-89b01175f982",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sku-variable-size:nth-child(3)",
+      "targets": [
+        ["css=.sku-variable-size:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='module_sku-select']/div/div[2]/div/div/div[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'XL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e416fb0-c5ff-429a-a5bf-a905868f8372",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sku-variable-size:nth-child(2)",
+      "targets": [
+        ["css=.sku-variable-size:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='module_sku-select']/div/div[2]/div/div/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a416d5-5d42-4f60-bb60-473d8c8acd4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sku-variable-size:nth-child(1)",
+      "targets": [
+        ["css=.sku-variable-size:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='module_sku-select']/div/div[2]/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "106ea314-5388-4f85-b1be-35bf9098bada",
+    "name": "My order list",
+    "commands": [{
+      "id": "3121fef8-7509-4dea-8c50-b8a2df5a8772",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c54f72b1-ddd5-437c-9bca-e1c5ee026b88",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1032",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1763d425-f634-4a6b-a7ef-56c74e9af0f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c3d22d5-3bb1-44b9-8ca8-a01dd3a42bc0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My Orders",
+      "targets": [
+        ["linkText=My Orders", "linkText"],
+        ["css=.account-item:nth-child(2) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.daraz.com.bd/customer/order/index/')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f056e08e-0181-4b2b-afcb-5e6ed0bf16c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Orders",
+      "targets": [
+        ["linkText=My Orders", "linkText"],
+        ["css=.account-item:nth-child(2) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.daraz.com.bd/customer/order/index/?spm=a2a0e.home.header.16.573712f7mhERIE')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f393fc7b-5f12-4f14-a627-3671de07a2f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.order:nth-child(2) .pull-right > .text",
+      "targets": [
+        ["css=.order:nth-child(2) .pull-right > .text", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div[3]/div[2]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59ccc85e-0244-40e1-8316-ffbae3ee7640",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8b887c5a-f894-480e-ac2f-ab52ad28abbc",
+    "name": "buy without log in",
+    "commands": [{
+      "id": "46a4826d-137c-4639-9fa9-f2704858ffbd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#hp-flash-sale",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "618e17d6-485a-424a-a952-00d9b5ffdeca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85b7770f-34f8-4751-86d7-4f8fa6efcc14",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card-fs-content-body-unit:nth-child(3) .fs-card-sold",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(3) .fs-card-sold", "css:finder"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[3]/div[2]/div[4]", "xpath:idRelative"],
+        ["xpath=//a[3]/div[2]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b88b005-d52e-4db4-aba2-ece5d49bf954",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.card-fs-content-body-unit:nth-child(3) .fs-card-sold",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(3) .fs-card-sold", "css:finder"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[3]/div[2]/div[4]", "xpath:idRelative"],
+        ["xpath=//a[3]/div[2]/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4784de06-7878-4565-a6bc-e0bb9bfc8c30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(5) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(5) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='Garden Tools Stainless Steel  Pen Curi For Cleaning Garden Plants']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[5]/div/img", "xpath:idRelative"],
+        ["xpath=//a[5]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7be76be-8381-4efb-b091-ff3e9dd57475",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_bluedaraz > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
       ],
       "value": ""
     }]

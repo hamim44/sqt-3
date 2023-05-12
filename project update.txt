@@ -29,3 +29,8 @@ DARAZ PRODUCT TRACKING
 DARAZ RETURN PRODUCT
 DARAZ REVIEW PRODUCT
 ORDER CANCEL
+payment bkash
+payment bkash invalid otp
+payment rocket invalid otp
+payment rocket valid otp
+sign up-same number account

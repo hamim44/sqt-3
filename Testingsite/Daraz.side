@@ -1121,13 +1121,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "9e655222-45d9-452a-a33f-329b947a4ef4",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1936x1048",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "fcdba055-51d7-4d6f-8cac-53257a71579b",
       "comment": "",
       "command": "click",
@@ -2411,13 +2404,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "60d5bdfd-b820-466f-9906-efd6fd0cfcf2",
-      "comment": "",
-      "command": "setWindowSize",
-      "target": "1936x1048",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "c71e4120-c077-4d16-8ce3-086245cc59bc",
       "comment": "",
       "command": "click",
@@ -2476,30 +2462,6 @@
         ["xpath=//img[contains(@src,'https://gcp-img.slatic.net/lazada/094c2a20-f9fc-4db8-9415-103dfddd7c0e_BD-388-435.jpg')]", "xpath:img"],
         ["xpath=//div[@id='3394654870']/div/div/a[3]/img", "xpath:idRelative"],
         ["xpath=//a[3]/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "7fee0de3-199d-429a-90e8-931942273b19",
-      "comment": "",
-      "command": "click",
-      "target": "css=.rax-view:nth-child(2) > .banner-link:nth-child(1) > .rax-image",
-      "targets": [
-        ["css=.rax-view:nth-child(2) > .banner-link:nth-child(1) > .rax-image", "css:finder"],
-        ["xpath=//img[contains(@src,'https://gcp-img.slatic.net/lazada/577222bb-5920-4daa-917f-d06aefbe04dd_BD-388-435.jpg')]", "xpath:img"],
-        ["xpath=//div[@id='3394654870']/div/div[2]/a/img", "xpath:idRelative"],
-        ["xpath=//div[2]/a/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "6e6cd0ff-1ea6-4a99-8bbc-7afdbb9cd85b",
-      "comment": "",
-      "command": "click",
-      "target": "css=.rax-view:nth-child(2) > .banner-link:nth-child(2) > .rax-image",
-      "targets": [
-        ["css=.rax-view:nth-child(2) > .banner-link:nth-child(2) > .rax-image", "css:finder"],
-        ["xpath=//img[contains(@src,'https://gcp-img.slatic.net/lazada/b459298d-2a7b-4650-8d8c-97c550a4f0e5_BD-388-435.jpg')]", "xpath:img"],
-        ["xpath=//div[@id='3394654870']/div/div[2]/a[2]/img", "xpath:idRelative"],
-        ["xpath=//div[2]/a[2]/img", "xpath:position"]
       ],
       "value": ""
     }]
@@ -5367,6 +5329,1210 @@
         ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
         ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
         ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f9a128d7-e9a6-42a2-a6e9-047889e03796",
+    "name": "payment- invalid nagad OTP",
+    "commands": [{
+      "id": "ee8d7f93-1ebb-439b-8525-dc9521d581ec",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2f8af09-6b19-4c7c-a8a4-7ebe8e9fde56",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7ef2cee-a71c-4334-8a0a-d809edeab9c5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,333)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af819830-efc1-4786-a1f7-bf9eab4f9c6a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(4) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(4) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='USB Fan and Light Combo for Notebook Laptop Or Power Bank']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[4]/div/img", "xpath:idRelative"],
+        ["xpath=//a[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2b65d4e-4071-4338-9ebe-60ca00fbf51a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_bluedaraz > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57092a11-e630-41c0-a2dc-a71cb82e1fc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='orderTotalV2_23']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58cb3035-7e77-419e-8708-64b8f4c14d04",
+      "comment": "",
+      "command": "click",
+      "target": "css=#automation-payment-method-item-105 .title",
+      "targets": [
+        ["css=#automation-payment-method-item-105 .title", "css:finder"],
+        ["xpath=//div[@id='automation-payment-method-item-105']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc90a737-8198-4718-8cd1-8d76061c577d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pay Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adf08c4b-4d78-47b7-b860-92a42fb227f1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(1)",
+      "targets": [
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "907efe5b-c2cf-47e5-8ecb-4838ddebf280",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(2)",
+      "targets": [
+        ["css=.form-control:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@type='number'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "1a5f347b-f6ad-4c1d-a206-a92f69560f04",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(3)",
+      "targets": [
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@type='number'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "a615e3f9-3708-429a-9edf-da9a35fc2a95",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(5)",
+      "targets": [
+        ["css=.form-control:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@type='number'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "f9350b33-bb7e-418d-8db9-05eda7b841e2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(6)",
+      "targets": [
+        ["css=.form-control:nth-child(6)", "css:finder"],
+        ["xpath=(//input[@type='number'])[5]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "fd856557-fa86-4401-8d02-4ac4786c8887",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(7)",
+      "targets": [
+        ["css=.form-control:nth-child(7)", "css:finder"],
+        ["xpath=(//input[@type='number'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "b7301a19-0948-4e16-b66a-91644e47deba",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(8)",
+      "targets": [
+        ["css=.form-control:nth-child(8)", "css:finder"],
+        ["xpath=(//input[@type='number'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "138fa941-995b-4fbb-9d19-0d66c6177b7f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(10)",
+      "targets": [
+        ["css=.form-control:nth-child(10)", "css:finder"],
+        ["xpath=(//input[@type='number'])[8]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[8]", "xpath:idRelative"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "b9e80449-cc0a-45c3-8dfc-568ca3bf8da6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(11)",
+      "targets": [
+        ["css=.form-control:nth-child(11)", "css:finder"],
+        ["xpath=(//input[@type='number'])[9]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "df9ab569-9177-4465-9e60-8f738290d16c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(12)",
+      "targets": [
+        ["css=.form-control:nth-child(12)", "css:finder"],
+        ["xpath=(//input[@type='number'])[10]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[10]", "xpath:idRelative"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "31866e0c-1b56-40ec-8cc1-fbd6d7523e48",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(13)",
+      "targets": [
+        ["css=.form-control:nth-child(13)", "css:finder"],
+        ["xpath=(//input[@type='number'])[11]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[11]", "xpath:idRelative"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "b492c27b-c650-4589-81f5-0500bc0ede9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.auth-action-buttons > .btn:nth-child(1)",
+      "targets": [
+        ["css=.auth-action-buttons > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Proceed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c2e4ef5-bbaf-4e09-8332-5346a8604b76",
+      "comment": "",
+      "command": "type",
+      "target": "id=otp",
+      "targets": [
+        ["id=otp", "id"],
+        ["name=otp", "name"],
+        ["css=#otp", "css:finder"],
+        ["xpath=//input[@id='otp']", "xpath:attributes"],
+        ["xpath=//form[@id='otp-form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "134532"
+    }, {
+      "id": "e3436aae-b029-4577-be65-23a9cf0a5805",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action-buttons > .btn:nth-child(1)",
+      "targets": [
+        ["css=.action-buttons > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='otp-form']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Proceed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01bf303a-4750-4972-b653-764f14457c57",
+      "comment": "",
+      "command": "click",
+      "target": "id=otp-form",
+      "targets": [
+        ["id=otp-form", "id"],
+        ["css=#otp-form", "css:finder"],
+        ["xpath=//form[@id='otp-form']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8455903c-d12a-4313-8d0d-9e3990358026",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-error",
+      "targets": [
+        ["css=.text-error", "css:finder"],
+        ["xpath=//form[@id='otp-form']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//form/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Unknown Error. Please call 16167 for more information')]", "xpath:innerText"]
+      ],
+      "value": "Unknown Error. Please call 16167 for more information"
+    }]
+  }, {
+    "id": "67afb7b1-47bb-4529-bb9c-dab827829748",
+    "name": "payment- valid nagad OTP",
+    "commands": [{
+      "id": "916f1378-43d5-4800-8292-1ff648806a13",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b59f932-531a-4a66-9474-f4b6864585cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1666526-d7fe-4d49-807a-fdf3042d9eb7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,333)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89adcb00-fa04-4ff4-a3e1-0a185690f868",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(4) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(4) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='USB Fan and Light Combo for Notebook Laptop Or Power Bank']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[4]/div/img", "xpath:idRelative"],
+        ["xpath=//a[4]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67c14fc1-6112-4920-8e89-47a8bf261a3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_bluedaraz > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e44064e1-1591-4fbd-a968-283739e58657",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='orderTotalV2_23']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e4ed646-6758-4d22-8ae0-5694371b3c54",
+      "comment": "",
+      "command": "click",
+      "target": "css=#automation-payment-method-item-105 .title",
+      "targets": [
+        ["css=#automation-payment-method-item-105 .title", "css:finder"],
+        ["xpath=//div[@id='automation-payment-method-item-105']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "044339d0-8734-456d-97ee-bd44a0ede370",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pay Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8432d9fb-dcfe-499f-ac05-fe600b6a0612",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(1)",
+      "targets": [
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='number']", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "bbe14b60-f85e-42ec-bc7e-0c364a8f4b1b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(2)",
+      "targets": [
+        ["css=.form-control:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@type='number'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "ed125cd0-7759-43e3-8313-72bcb3b4f380",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(3)",
+      "targets": [
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@type='number'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "7baca8ce-20e7-48d9-ba46-5d633ab78140",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(5)",
+      "targets": [
+        ["css=.form-control:nth-child(5)", "css:finder"],
+        ["xpath=(//input[@type='number'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "7e4d6911-a44d-411d-9d91-575a10261a57",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(6)",
+      "targets": [
+        ["css=.form-control:nth-child(6)", "css:finder"],
+        ["xpath=(//input[@type='number'])[5]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "136560a9-788d-44f4-ba59-de12a4e3e22c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(7)",
+      "targets": [
+        ["css=.form-control:nth-child(7)", "css:finder"],
+        ["xpath=(//input[@type='number'])[6]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "6"
+    }, {
+      "id": "cdfa99ea-45f2-4384-ac9d-1411972187ee",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(8)",
+      "targets": [
+        ["css=.form-control:nth-child(8)", "css:finder"],
+        ["xpath=(//input[@type='number'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "017bbda4-a996-4691-a548-1615b1ecb2a1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(10)",
+      "targets": [
+        ["css=.form-control:nth-child(10)", "css:finder"],
+        ["xpath=(//input[@type='number'])[8]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[8]", "xpath:idRelative"],
+        ["xpath=//input[8]", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "47aeb121-51e4-43bf-acca-710023afa0b3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(11)",
+      "targets": [
+        ["css=.form-control:nth-child(11)", "css:finder"],
+        ["xpath=(//input[@type='number'])[9]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[9]", "xpath:idRelative"],
+        ["xpath=//input[9]", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "6232cf06-c75a-4996-8f92-6f53df2308e7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(12)",
+      "targets": [
+        ["css=.form-control:nth-child(12)", "css:finder"],
+        ["xpath=(//input[@type='number'])[10]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[10]", "xpath:idRelative"],
+        ["xpath=//input[10]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "e9b86703-c16d-4319-9ba6-f87cf17336dd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(13)",
+      "targets": [
+        ["css=.form-control:nth-child(13)", "css:finder"],
+        ["xpath=(//input[@type='number'])[11]", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div/div/input[11]", "xpath:idRelative"],
+        ["xpath=//input[11]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "6154af48-cc10-4e0d-a408-02d8edc33604",
+      "comment": "",
+      "command": "click",
+      "target": "css=.auth-action-buttons > .btn:nth-child(1)",
+      "targets": [
+        ["css=.auth-action-buttons > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='account-form']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Proceed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b487518-07e9-4f95-9082-8917be206a7d",
+      "comment": "",
+      "command": "click",
+      "target": "id=otp",
+      "targets": [
+        ["id=otp", "id"],
+        ["name=otp", "name"],
+        ["css=#otp", "css:finder"],
+        ["xpath=//input[@id='otp']", "xpath:attributes"],
+        ["xpath=//form[@id='otp-form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d70c3190-9f5e-4a71-9c3a-0c7ccfe757ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=otp",
+      "targets": [
+        ["id=otp", "id"],
+        ["name=otp", "name"],
+        ["css=#otp", "css:finder"],
+        ["xpath=//input[@id='otp']", "xpath:attributes"],
+        ["xpath=//form[@id='otp-form']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "528782"
+    }, {
+      "id": "f54e8d78-cbbd-4352-b142-c8436f02807a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.action-buttons > .btn:nth-child(1)",
+      "targets": [
+        ["css=.action-buttons > .btn:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='otp-form']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Proceed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b68a78b7-3c1d-49fa-a1b2-ff1ea79736c5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(1)",
+      "targets": [
+        ["css=.form-control:nth-child(1)", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//form[@id='pin-form']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "60019ecd-7646-4b0d-b748-0e67b5ef8177",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(2)",
+      "targets": [
+        ["css=.form-control:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@type='password'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='pin-form']/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "7"
+    }, {
+      "id": "5b0212c6-9b76-46fe-86d1-8622bcd9f4bd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(3)",
+      "targets": [
+        ["css=.form-control:nth-child(3)", "css:finder"],
+        ["xpath=(//input[@type='password'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='pin-form']/div/div/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "f1470857-c466-4ba6-9a44-660cbb0299a0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-control:nth-child(4)",
+      "targets": [
+        ["css=.form-control:nth-child(4)", "css:finder"],
+        ["xpath=(//input[@type='password'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='pin-form']/div/div/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "d46e2315-cab4-4016-818a-8157a73acd1e",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmButton",
+      "targets": [
+        ["id=confirmButton", "id"],
+        ["css=#confirmButton", "css:finder"],
+        ["xpath=//button[@id='confirmButton']", "xpath:attributes"],
+        ["xpath=//form[@id='pin-form']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Proceed')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bf667de6-4454-4ef2-8d75-4ec7daf19cee",
+    "name": "PAYMENT option delete",
+    "commands": [{
+      "id": "88c6f703-de03-4224-98ba-dc5008eb3db8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f1be7e5-7330-44b9-9ffb-70a91adc0ae9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "295d9bf0-e84a-4b3f-8c22-f00e8470ab74",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcbd7778-d83f-4cab-9a74-edc4534b7b4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Manage My Account",
+      "targets": [
+        ["linkText=Manage My Account", "linkText"],
+        ["css=.account-item:nth-child(1) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//member.daraz.com.bd/user/account?spm=a2a0e.home.header.15.573712f71ao3dt#/')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Manage My Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e4de5e2-1e39-465a-a203-fbe15cd981ce",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My Payment Options",
+      "targets": [
+        ["linkText=My Payment Options", "linkText"],
+        ["css=#Payment-methods > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Payment Options')]", "xpath:link"],
+        ["xpath=//li[@id='Payment-methods']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//checkout.daraz.com.bd/payment/management')]", "xpath:href"],
+        ["xpath=//li/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Payment Options')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ecf472f-590a-4693-bb94-7dccfeb65453",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Payment Options",
+      "targets": [
+        ["linkText=My Payment Options", "linkText"],
+        ["css=#Payment-methods > a", "css:finder"],
+        ["xpath=//a[contains(text(),'My Payment Options')]", "xpath:link"],
+        ["xpath=//li[@id='Payment-methods']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//checkout.daraz.com.bd/payment/management?spm=a2a0e.manage_account.0.0.29552829B6ZvYC')]", "xpath:href"],
+        ["xpath=//li/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Payment Options')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2d03e3e-d281-423d-9177-21e69644278c",
+      "comment": "",
+      "command": "click",
+      "target": "id=automation-btn-delete-card-600986239981482",
+      "targets": [
+        ["id=automation-btn-delete-card-600986239981482", "id"],
+        ["css=#automation-btn-delete-card-600986239981482", "css:finder"],
+        ["xpath=//span[@id='automation-btn-delete-card-600986239981482']", "xpath:attributes"],
+        ["xpath=//div[@id='root_10000']/div/table/tbody/tr/td[2]/span", "xpath:idRelative"],
+        ["xpath=//td[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Delete')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9424f72-5216-4d58-a757-a0c7c1f8e9c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.confirm-dialog-footer-button-confirm",
+      "targets": [
+        ["css=.confirm-dialog-footer-button-confirm", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='dialog-footer-2']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'CONFIRM')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a04d8be5-7ba3-45c4-b3bf-0cbbad7405dc",
+    "name": "payment COD",
+    "commands": [{
+      "id": "7008bb1a-8777-45cb-af78-ca4b8c5a65ee",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e66ec74b-dce8-4378-900e-a2edff16efe6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "525f03f9-8be3-40b6-8dc6-9205b8993dbd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.card-fs-content-body-unit:nth-child(2) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(2) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='Black High quality Auto Gear Belt For Men']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[2]/div/img", "xpath:idRelative"],
+        ["xpath=//a[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adf8354e-4cae-484a-8cd0-ea039b0b08f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-fs-content-body-unit:nth-child(2) .fs-card-img",
+      "targets": [
+        ["css=.card-fs-content-body-unit:nth-child(2) .fs-card-img", "css:finder"],
+        ["xpath=//img[@alt='Black High quality Auto Gear Belt For Men']", "xpath:img"],
+        ["xpath=//div[@id='hp-flash-sale']/div[2]/div[2]/a[2]/div/img", "xpath:idRelative"],
+        ["xpath=//a[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ef5b772-ff38-4791-ae60-4f0ec216ce51",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.pdp-button_theme_bluedaraz > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b38838d9-ce1b-4366-92d6-588d4ab69195",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp-button_theme_bluedaraz > .pdp-button-text > span",
+      "targets": [
+        ["css=.pdp-button_theme_bluedaraz > .pdp-button-text > span", "css:finder"],
+        ["xpath=//div[@id='module_add_to_cart']/div/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75cf1604-bcdf-4370-af40-26d2fb6bb75c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='orderTotalV2_23']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Place Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21ca8bd2-c27b-416b-8d1e-29c76edce861",
+      "comment": "",
+      "command": "click",
+      "target": "css=#automation-payment-method-item-121 > .icon",
+      "targets": [
+        ["css=#automation-payment-method-item-121 > .icon", "css:finder"],
+        ["xpath=//img[contains(@src,'https://laz-img-cdn.alicdn.com/tfs/TB1utb_r8jTBKNjSZFwXXcG4XXa-80-80.png')]", "xpath:img"],
+        ["xpath=//div[@id='automation-payment-method-item-121']/img", "xpath:idRelative"],
+        ["xpath=//div[7]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b548310d-a272-4200-bd8e-8aefc0743062",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='paymentMethodList_XxX10001']/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bde5e668-8ac3-484d-afd0-f5078ac4ca73",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,333)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98624573-6171-457d-b797-54341300bbbd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=automation-link-button_1",
+      "targets": [
+        ["id=automation-link-button_1", "id"],
+        ["linkText=Continue Shopping", "linkText"],
+        ["css=#automation-link-button_1", "css:finder"],
+        ["xpath=//a[contains(text(),'Continue Shopping')]", "xpath:link"],
+        ["xpath=//a[@id='automation-link-button_1']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div[2]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.daraz.com.bd')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continue Shopping')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "22781e21-7302-4241-a567-f6dc949783e2",
+    "name": "ORDER CANCEL",
+    "commands": [{
+      "id": "7b60af02-eea6-44d8-bc67-4d8939f49b0d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff78f05e-17f2-4fea-a516-64854c1cd124",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4642aba-8c68-464c-b945-afe3d188ce31",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#topActionEWallet > img",
+      "targets": [
+        ["css=#topActionEWallet > img", "css:finder"],
+        ["xpath=//img[@alt='Voucher']", "xpath:img"],
+        ["xpath=//a[@id='topActionEWallet']/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "643d7ef7-91c3-41f4-bd0e-8003d107d947",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#topActionEWallet > img",
+      "targets": [
+        ["css=#topActionEWallet > img", "css:finder"],
+        ["xpath=//img[@alt='Voucher']", "xpath:img"],
+        ["xpath=//a[@id='topActionEWallet']/img", "xpath:idRelative"],
+        ["xpath=//div[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87e68625-d78d-4185-a232-77d384aa92cf",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "109f66b4-6b2f-407d-8e19-3b1054255b87",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Orders",
+      "targets": [
+        ["linkText=My Orders", "linkText"],
+        ["css=.account-item:nth-child(2) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.daraz.com.bd/customer/order/index/?spm=a2a0e.home.header.16.573712f7nmx12U')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Orders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e4016e0-39f7-4b95-a781-911dccb4bb47",
+      "comment": "",
+      "command": "click",
+      "target": "css=.order-tab-item:nth-child(3)",
+      "targets": [
+        ["css=.order-tab-item:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'To Ship(2)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcba8abb-7880-4438-9d8f-42d48bf22003",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MANAGE",
+      "targets": [
+        ["linkText=MANAGE", "linkText"],
+        ["css=.order:nth-child(1) .pull-right", "css:finder"],
+        ["xpath=//a[contains(text(),'MANAGE')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div/div[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MANAGE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1475554-e6b4-41bc-857b-976834585c8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > .bold",
+      "targets": [
+        ["css=a > .bold", "css:finder"],
+        ["xpath=//div[@id='root_641679322781482']/div[2]/div/div[2]/div[2]/div[5]/a/p", "xpath:idRelative"],
+        ["xpath=//a/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac3bea49-a3ac-41d6-9422-84620629ccc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-select-inner",
+      "targets": [
+        ["css=.next-select-inner", "css:finder"],
+        ["xpath=//div[@id='itemSelect_641679322881482|181032386|']/div[5]/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e4f3c0b-b62e-44bd-a80e-6a3e3470daee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.focused",
+      "targets": [
+        ["css=.focused", "css:finder"],
+        ["xpath=//li[@value='10010009']", "xpath:attributes"],
+        ["xpath=//body/div[4]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Change/combine order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "674ac345-04e0-40b4-9d2a-794baccae4fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hovered > input",
+      "targets": [
+        ["css=.hovered > input", "css:finder"],
+        ["xpath=//input[@value='false']", "xpath:attributes"],
+        ["xpath=//div[@id='formFooter_FORM_FOOTER_ID']/div/div/label/label/input", "xpath:idRelative"],
+        ["xpath=//label/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7981d91-f264-42ba-92d0-9b847bb5a1bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn > .title",
+      "targets": [
+        ["css=.next-btn > .title", "css:finder"],
+        ["xpath=//div[@id='formFooter_FORM_FOOTER_ID']/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'SUBMIT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d41f2e20-548b-4946-849d-914b7982c4e6",
+    "name": "DARAZ REVIEW PRODUCT",
+    "commands": [{
+      "id": "633d9632-87c2-42b3-9a0d-655858313ea0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4198b533-a5ea-4819-b98e-7255144d6ec2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d8779e4-f34d-449f-8580-aeadd62f14dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95a0b784-787c-4461-aea0-f408ab7dcaa7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=My Reviews",
+      "targets": [
+        ["linkText=My Reviews", "linkText"],
+        ["css=.account-item:nth-child(4) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.daraz.com.bd/customer/myReview/my-reviews')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Reviews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f81f1f7-eb56-4d35-be97-4f5d1cef85be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Reviews",
+      "targets": [
+        ["linkText=My Reviews", "linkText"],
+        ["css=.account-item:nth-child(4) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.daraz.com.bd/customer/myReview/my-reviews?spm=a2a0e.home.header.18.573712f7Ygk4W5')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Reviews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6296bfcf-bfd9-40ac-beab-8968bf14784b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-reviews-layout:nth-child(1) .next-btn",
+      "targets": [
+        ["css=.my-reviews-layout:nth-child(1) .next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[2]/div[2]/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2f814d6-5d53-4fdd-a697-e7de6bf0e5b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.starWrap .star:nth-child(5)",
+      "targets": [
+        ["css=.starWrap .star:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div/div[2]/div[2]/div[3]/div/div/img[5]", "xpath:idRelative"],
+        ["xpath=//img[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1022a3e1-df2f-4caa-acda-24685efc1d94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.next-btn",
+      "targets": [
+        ["css=.next-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SUBMIT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "55a8bc00-928c-43c0-80f5-3ff90da7f615",
+    "name": "DARAZ RETURN PRODUCT",
+    "commands": [{
+      "id": "37ab157e-662a-4606-b080-e7de46545178",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9a3fb21-82c4-4276-8d48-3422c52a263d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1918x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0b13c47-1607-43ea-9422-6d3cb8e133ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=myAccountTrigger",
+      "targets": [
+        ["id=myAccountTrigger", "id"],
+        ["css=#myAccountTrigger", "css:finder"],
+        ["xpath=//span[@id='myAccountTrigger']", "xpath:attributes"],
+        ["xpath=//div[@id='topActionUserAccont']/span", "xpath:idRelative"],
+        ["xpath=//div[6]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91df0e82-372c-441b-bcf3-7069780fdac2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Returns & Cancellations",
+      "targets": [
+        ["linkText=My Returns & Cancellations", "linkText"],
+        ["css=.account-item:nth-child(5) > .account-item-anchor", "css:finder"],
+        ["xpath=//div[@id='lzdMyAccountPop']/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.daraz.com.bd/customer/returns/index?spm=a2a0e.home.header.19.573712f7da4msA&requestType=return')]", "xpath:href"],
+        ["xpath=//div[6]/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Returns & Cancellations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0db97bd-4222-4232-ab36-dac5f3541883",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pull-right",
+      "targets": [
+        ["css=.pull-right", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'MORE DETAILS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e57bf88f-c54e-400c-896c-23b5feb134fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tracking-view-btn",
+      "targets": [
+        ["css=.tracking-view-btn", "css:finder"],
+        ["xpath=//div[@id='root_10000']/div[2]/div/div[2]/div/div/div[2]/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'VIEW MORE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "716ef4ec-72f2-408f-a847-3a27f94386e3",
+    "name": "DARAZ PRODUCT  TRACKING",
+    "commands": [{
+      "id": "0f889f4a-e5d5-4fb9-8dbf-fbc4c7cb636c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.daraz.com.bd/#",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0815d584-f9d2-4bce-bac5-efe3cc42091b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1283x1030",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f8b191c-0a35-4fa0-b17d-a410fe68d0b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#topActionTrack > span",
+      "targets": [
+        ["css=#topActionTrack > span", "css:finder"],
+        ["xpath=//div[@id='topActionTrack']/span", "xpath:idRelative"],
+        ["xpath=//div[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16aed228-89b6-4bf5-904e-c846a9fe4839",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=18/04/2023 - Order 640999565807458",
+      "targets": [
+        ["linkText=18/04/2023 - Order 640999565807458", "linkText"],
+        ["css=.last-order:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'18/04/2023 - Order 640999565807458')]", "xpath:link"],
+        ["xpath=//div[@id='topActionMyLastOrder']/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '//my.daraz.com.bd/customer/order/view/?spm=a2a0e.home.header.11.573712f7A9N38Q&tradeOrderId=640999565807458')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'18/04/2023 - Order 640999565807458')]", "xpath:innerText"]
       ],
       "value": ""
     }]

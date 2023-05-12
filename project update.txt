@@ -18,3 +18,14 @@ DELIVARY PICKPOINT SELETE
 payment- valid card number
 My order list
 DELIVARY PICKPOINT SELETE
+
+13-
+payment COD
+payment- invalid nagad OTP
+payment- valid nagad OTP
+PAYMENT option delete
+ORDER CANCEL
+DARAZ PRODUCT TRACKING
+DARAZ RETURN PRODUCT
+DARAZ REVIEW PRODUCT
+ORDER CANCEL

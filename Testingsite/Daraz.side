@@ -4085,17 +4085,9 @@
     }, {
       "id": "cf1b0918-59a1-49d7-aa5c-28113a8d8016",
       "comment": "",
-      "command": "click",
-      "target": "linkText=good knight",
-      "targets": [
-        ["linkText=good knight", "linkText"],
-        ["css=.history__item--1rg8:nth-child(1)", "css:finder"],
-        ["xpath=//a[contains(text(),'good knight')]", "xpath:link"],
-        ["xpath=//div[@id='topActionHeader']/div/div[2]/div/div[2]/form/div/div[3]/div/div[2]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, '//www.daraz.com.bd/catalog/?spm=a2a0e.home.search.1.573712f7rwIH9H&q=good knight&_keyori=ss&from=search_history&sugg=good%20knight_0_1')]", "xpath:href"],
-        ["xpath=//div[3]/div/div[2]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'good knight')]", "xpath:innerText"]
-      ],
+      "command": "open",
+      "target": "https://www.daraz.com.bd/catalog/?spm=a2a0e.home.search.8.573712f7BrT5jw&q=good%20knight&_keyori=ss&clickTrackInfo=textId--2089422964741652606__abId--333031__pvid--58517645-1bb8-4719-8169-b4bdc7587978__matchType--1__srcQuery--None__spellQuery--good%20knight&from=suggest_normal&sugg=good%20knight_7_1",
+      "targets": [],
       "value": ""
     }, {
       "id": "05041ae4-83cd-4cd8-af18-5086d242c47c",
